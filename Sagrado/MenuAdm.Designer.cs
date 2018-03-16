@@ -29,27 +29,17 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnComanda = new System.Windows.Forms.Button();
             this.btnControle = new System.Windows.Forms.Button();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.pnComanda = new Sagrado.Comanda();
             this.pnControle = new Sagrado.Controle();
+            this.pnComanda = new Sagrado.Comanda();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(232, 58);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Sagrado";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel1
             // 
@@ -86,6 +76,15 @@
             this.btnControle.UseVisualStyleBackColor = false;
             this.btnControle.Click += new System.EventHandler(this.btnControle_Click);
             // 
+            // pnControle
+            // 
+            this.pnControle.BackColor = System.Drawing.Color.White;
+            this.pnControle.Location = new System.Drawing.Point(262, 12);
+            this.pnControle.Name = "pnControle";
+            this.pnControle.Size = new System.Drawing.Size(498, 461);
+            this.pnControle.TabIndex = 12;
+            this.pnControle.Load += new System.EventHandler(this.pnControle_Load);
+            // 
             // pnComanda
             // 
             this.pnComanda.BackColor = System.Drawing.Color.White;
@@ -93,14 +92,27 @@
             this.pnComanda.Name = "pnComanda";
             this.pnComanda.Size = new System.Drawing.Size(498, 299);
             this.pnComanda.TabIndex = 11;
+            this.pnComanda.Load += new System.EventHandler(this.pnComanda_Load);
             // 
-            // pnControle
+            // label2
             // 
-            this.pnControle.BackColor = System.Drawing.Color.White;
-            this.pnControle.Location = new System.Drawing.Point(249, 132);
-            this.pnControle.Name = "pnControle";
-            this.pnControle.Size = new System.Drawing.Size(498, 299);
-            this.pnControle.TabIndex = 12;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Colonna MT", 32.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(33, 35);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(248, 46);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Restaurante";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Colonna MT", 32.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(64, 81);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(169, 46);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Sagrado";
             // 
             // MenuAdm
             // 
@@ -108,11 +120,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.pnControle);
             this.Controls.Add(this.pnComanda);
             this.Controls.Add(this.btnControle);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.HelpButton = true;
             this.Name = "MenuAdm";
@@ -126,13 +139,13 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnControle;
         private System.Windows.Forms.Button btnComanda;
         private Comanda pnComanda;
         private Controle pnControle;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }

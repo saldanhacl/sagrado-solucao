@@ -48,6 +48,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CadastroFunc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroFunc.Designer.cs">
+      <DependentUpon>CadastroFunc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GerenciaFunc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GerenciaFunc.Designer.cs">
+      <DependentUpon>GerenciaFunc.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuFunc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +98,12 @@
     <Compile Include="Controle.Designer.cs">
       <DependentUpon>Controle.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CadastroFunc.resx">
+      <DependentUpon>CadastroFunc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GerenciaFunc.resx">
+      <DependentUpon>GerenciaFunc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuAdm.resx">
       <DependentUpon>MenuAdm.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +124,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Comanda.resx">
       <DependentUpon>Comanda.cs</DependentUpon>
@@ -124,7 +143,36 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastrofuniconario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\semfoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfoto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfoto1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_check_49827.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_check_498271.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirmar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

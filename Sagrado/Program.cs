@@ -16,7 +16,7 @@ namespace Sagrado
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TipoUsuario());
+            Application.Run(new Login());
         }
     }
 }

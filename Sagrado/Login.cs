@@ -30,5 +30,27 @@ namespace Sagrado
             this.Hide();
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.White;
+            button2.BackColor = Color.LightBlue;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button2.BackColor = Color.White;
+            button1.BackColor = Color.LightBlue;
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

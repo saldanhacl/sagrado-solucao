@@ -16,9 +16,9 @@ namespace Sagrado
         {
             InitializeComponent();
             this.CenterToScreen();
-            pnComanda.BringToFront();
+            pnComanda.Visible=false;
             btnComanda.Select();
-            pnControle.Visible = false;
+            pnControle.Visible = true;;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -54,6 +54,16 @@ namespace Sagrado
         }
 
         private void MenuAdm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnControle_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnComanda_Load(object sender, EventArgs e)
         {
 
         }
