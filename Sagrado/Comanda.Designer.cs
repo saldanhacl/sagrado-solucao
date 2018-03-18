@@ -33,10 +33,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnOutros = new System.Windows.Forms.Button();
+            this.btnPorcao = new System.Windows.Forms.Button();
+            this.btnBebidas = new System.Windows.Forms.Button();
+            this.btnPratos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label5
@@ -79,41 +79,41 @@
             this.label2.TabIndex = 24;
             this.label2.Text = "Pratos";
             // 
-            // button4
+            // btnOutros
             // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(273, 169);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(206, 97);
-            this.button4.TabIndex = 23;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnOutros.Image = ((System.Drawing.Image)(resources.GetObject("btnOutros.Image")));
+            this.btnOutros.Location = new System.Drawing.Point(273, 169);
+            this.btnOutros.Name = "btnOutros";
+            this.btnOutros.Size = new System.Drawing.Size(206, 97);
+            this.btnOutros.TabIndex = 23;
+            this.btnOutros.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnPorcao
             // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(29, 169);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(206, 97);
-            this.button3.TabIndex = 22;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnPorcao.Image = ((System.Drawing.Image)(resources.GetObject("btnPorcao.Image")));
+            this.btnPorcao.Location = new System.Drawing.Point(29, 169);
+            this.btnPorcao.Name = "btnPorcao";
+            this.btnPorcao.Size = new System.Drawing.Size(206, 97);
+            this.btnPorcao.TabIndex = 22;
+            this.btnPorcao.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnBebidas
             // 
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(273, 9);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(206, 97);
-            this.button2.TabIndex = 21;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnBebidas.Image = ((System.Drawing.Image)(resources.GetObject("btnBebidas.Image")));
+            this.btnBebidas.Location = new System.Drawing.Point(273, 9);
+            this.btnBebidas.Name = "btnBebidas";
+            this.btnBebidas.Size = new System.Drawing.Size(206, 97);
+            this.btnBebidas.TabIndex = 21;
+            this.btnBebidas.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnPratos
             // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(29, 9);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(206, 97);
-            this.button1.TabIndex = 20;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnPratos.Image = ((System.Drawing.Image)(resources.GetObject("btnPratos.Image")));
+            this.btnPratos.Location = new System.Drawing.Point(29, 9);
+            this.btnPratos.Name = "btnPratos";
+            this.btnPratos.Size = new System.Drawing.Size(206, 97);
+            this.btnPratos.TabIndex = 20;
+            this.btnPratos.UseVisualStyleBackColor = true;
             // 
             // Comanda
             // 
@@ -124,10 +124,10 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnOutros);
+            this.Controls.Add(this.btnPorcao);
+            this.Controls.Add(this.btnBebidas);
+            this.Controls.Add(this.btnPratos);
             this.Name = "Comanda";
             this.Size = new System.Drawing.Size(498, 299);
             this.ResumeLayout(false);
@@ -141,9 +141,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnOutros;
+        private System.Windows.Forms.Button btnPorcao;
+        private System.Windows.Forms.Button btnBebidas;
+        private System.Windows.Forms.Button btnPratos;
     }
 }

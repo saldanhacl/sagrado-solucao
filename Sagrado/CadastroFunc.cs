@@ -61,6 +61,21 @@ namespace Sagrado
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void pictureBox4_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

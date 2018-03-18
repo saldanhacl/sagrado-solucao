@@ -103,6 +103,16 @@ namespace Sagrado.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gerenciarfuncionario {
+            get {
+                object obj = ResourceManager.GetObject("gerenciarfuncionario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap if_check_49827 {
             get {
                 object obj = ResourceManager.GetObject("if_check_49827", resourceCulture);

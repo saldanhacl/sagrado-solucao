@@ -25,7 +25,12 @@ namespace Sagrado
         private void button5_Click(object sender, EventArgs e)
         {
             new CadastroFunc().Show();
-            this.Hide();
+            
+        }
+
+        private void btnGerencia_Click(object sender, EventArgs e)
+        {
+            new GerenciaFunc().Show();
         }
     }
 }

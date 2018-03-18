@@ -23,5 +23,15 @@ namespace Sagrado
 
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
