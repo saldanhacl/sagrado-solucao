@@ -54,7 +54,7 @@ namespace Sagrado
 
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void btnConfirmar_Click(object sender, EventArgs e)
         {
 
         }
