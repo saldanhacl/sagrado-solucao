@@ -32,9 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MetroFramework">
-      <HintPath>..\..\MetroModernUI\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -132,6 +129,16 @@
     <EmbeddedResource Include="Controle.resx">
       <DependentUpon>Controle.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="bdsagradoDataSet.xsc">
+      <DependentUpon>bdsagradoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="bdsagradoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdsagradoDataSet.xss">
+      <DependentUpon>bdsagradoDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
