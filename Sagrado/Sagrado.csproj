@@ -77,6 +77,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="TelaAberturaCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAberturaCaixa.Designer.cs">
+      <DependentUpon>TelaAberturaCaixa.cs</DependentUpon>
+    </Compile>
     <Compile Include="TipoUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MenuFunc.resx">
       <DependentUpon>MenuFunc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAberturaCaixa.resx">
+      <DependentUpon>TelaAberturaCaixa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TipoUsuario.resx">
       <DependentUpon>TipoUsuario.cs</DependentUpon>
