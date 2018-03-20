@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using MySql.Data.MySqlClient;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -56,6 +57,18 @@ namespace Sagrado
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
+            DataBaseConnection bd = new DataBaseConnection();
+            bd.openConnection();
+
+            //String nome = textBox1.V
+
+            String query = "INSERT INTO USUARIO " +
+                "(CPF_USER, NOME_USER, TEL_USER, CEL_USER, EMAIL_USER, DTINCLUSAO_USER, DTNASCIMENTO_USER, SEXO_USER, RG_USER, SENHA_USER)" +
+                "VALUES ()";
+
+            MySqlCommand cmd = new MySqlCommand(query, bd.retornaConexao());
+            cmd.ExecuteNonQuery();
+            bd.closeConnection();
 
         }
 
