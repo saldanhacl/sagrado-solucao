@@ -21,6 +21,7 @@ namespace TelaAberturaCaixa
 
         private void botaoOK(object sender, EventArgs e)
         {
+            if(textBox1.TextLength > 0){
             valor = float.Parse(textBox1.Text);
             if (valor == 0 || valor < 0 )
             {
@@ -29,8 +30,11 @@ namespace TelaAberturaCaixa
             }
             MessageBox.Show("Caixa aberto com "+ "R$: "+ valor);
             Application.Exit();
-        }
-
+            }
+            MessageBox.Show("Caixa de texto vazia. Por favor digite um valor!");
+            return;
+     }
+   
         private void botaoCancelar(object sender, EventArgs e)
         {
             if(MessageBox.Show("Tem certeza que quer cancelar?", "Sair", MessageBoxButtons.OKCancel) == DialogResult.OK)
