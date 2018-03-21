@@ -58,39 +58,48 @@ namespace Sagrado
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
             DataBaseConnection bd = new DataBaseConnection();
-            bd.openConnection();
-
-            String nome = textBox1.Text;
-
-        //Dtinclusao deixa assim;
-            String dtinclusao = "now()";
-
-        //formatar dtnascimento para DateTime;
-            String dtnascimento = "now()";
-            String rg = textBox3.Text;
-            String cpf = textBox2.Text;
-            String tel = textBox6.Text;
-            String cel = textBox5.Text;
-            String email = textBox4.Text + comboBox1.Text;
-            String senha = textBox7.Text;
-            String confirmasenha = textBox8.Text;
-
-            if(senha == confirmasenha)
+            try
             {
-                String query = "INSERT INTO USUARIO " +
-                "(CPF_USER, NOME_USER, TEL_USER, CEL_USER, EMAIL_USER, DTINCLUSAO_USER, DTNASCIMENTO_USER, SEXO_USER, RG_USER, SENHA_USER)" +
-                "VALUES ('" + cpf + "','" + nome + "','" + tel + "','" + cel + "','" +
-                email + "'," + dtinclusao + "," + dtnascimento + ",'" + "m" + "','" + rg + "','" + senha + "')";
+                bd.openConnection();
 
-                MySqlCommand cmd = new MySqlCommand(query, bd.retornaConexao());
-                cmd.ExecuteNonQuery();
+                String nome = textBox1.Text;
+                //formatar dtnascimento para DateTime;
+                String dtnascimento = "now()";
+                String rg = textBox3.Text;
+                String cpf = textBox2.Text;
+                String tel = textBox6.Text;
+                String cel = textBox5.Text;
+                String email = textBox4.Text + comboBox1.Text;
+                String senha = textBox7.Text;
+                String confirmasenha = textBox8.Text;
 
-            //Avisar que foi inserido e sair da tela.
+                if (senha == confirmasenha)
+                {
+                    String query = "INSERT INTO USUARIO " +
+                    "(CPF_USER, NOME_USER, TEL_USER, CEL_USER, EMAIL_USER, DTNASCIMENTO_USER, SEXO_USER, RG_USER, SENHA_USER)" +
+                    "VALUES ('" + cpf + "','" + nome + "','" + tel + "','" + cel + "','" +
+                    email + "'," + dtnascimento + ",'" + "m" + "','" + rg + "','" + senha + "')";
+
+                    MySqlCommand cmd = new MySqlCommand(query, bd.retornaConexao());
+                    cmd.ExecuteNonQuery();
+                    System.Windows.Forms.MessageBox.Show("Funcionario cadastrado com sucesso!!");
+
+                    new MenuAdm().Show();
+                    this.Hide();
+                }
+                else
+                {
+                    System.Windows.Forms.MessageBox.Show("A senha e confirma senha, não estão iguais. Digite novamente");
+                    textBox7.Text = "";
+                    textBox8.Text = "";
+                }
+
             }
-            else
+            catch(MySqlException error)
             {
-                //error de senhas
+                System.Windows.Forms.MessageBox.Show("Error de conexão com o banco de dados.");
             }
+           
 
             
             bd.closeConnection();
