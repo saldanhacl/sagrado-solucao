@@ -13,6 +13,8 @@ namespace Sagrado
 {
     public partial class GerenciaFunc : Form
     {
+
+        private String cpfAnterior = "";
          public GerenciaFunc()
         {
             InitializeComponent();
@@ -33,15 +35,22 @@ namespace Sagrado
             {
                 textBox4.Text = reader["CPF_USER"].ToString();
                 textBox6.Text = reader["NOME_USER"].ToString();
+
                 textBox3.Text = reader["TEL_USER"].ToString();
+                cpfAnterior = textBox3.Text;
+
                 textBox2.Text = reader["CEL_USER"].ToString();
-                textBox1.Text = reader["EMAIL_USER"].ToString();
+
+                String email = reader["EMAIL_USER"].ToString();
+                String[] emailarray = email.Split('@');
+                textBox1.Text = emailarray[0];
+
                 textBox5.Text = reader["RG_USER"].ToString();
             }
 
             bd.closeConnection();
         }
-
+        
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -55,9 +64,25 @@ namespace Sagrado
         private void button1_Click(object sender, EventArgs e)
         {
             DataBaseConnection bd = new DataBaseConnection();
-   //         private String nome = textBox6;
 
-        
+            String nome = textBox6.Text;
+            String cpf = textBox4.Text;
+            String tel = textBox3.Text;
+            String cel = textBox2.Text;
+            String email = textBox1.Text;
+            String rg = textBox5.Text;
+
+            String query = "UPDATE USUARIO SET " +
+                "NOME_USER = '" + nome +
+                "', CPF_USER = '" + cpf +
+                "', TEL_USER = '" + tel +
+                "', CEL_USER = '" + cel +
+                "', EMAIL_USER = '" + email + comboBox1 +
+                "', RG_USER = '" + rg +
+                "' WHERE CPF_USER = " + cpfAnterior;
+
+            MySqlCommand cmd = new MySqlCommand(query, bd.retornaConexao());
+            cmd.ExecuteNonQuery();
             bd.openConnection();
             
         }
