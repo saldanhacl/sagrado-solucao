@@ -45,7 +45,7 @@ namespace Sagrado
         {
             pnComanda.Visible = true;
             pnControle.Visible = false;
-              }
+        }
 
         private void btnControle_Click(object sender, EventArgs e)
         {

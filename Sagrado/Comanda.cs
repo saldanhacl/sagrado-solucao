@@ -15,6 +15,15 @@ namespace Sagrado
         public Comanda()
         {
             InitializeComponent();
+        
+        }
+
+
+ 
+
+        private void Comanda_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
