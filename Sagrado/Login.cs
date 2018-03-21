@@ -40,7 +40,7 @@ namespace Sagrado
 
             if(senhaConsultada == textBox2.Text)
             {
-                MessageBox.Show(senhaConsultada);
+                //MessageBox.Show(senhaConsultada);
                 bd.closeConnection();
                 return nivel;        
             }
@@ -81,7 +81,7 @@ namespace Sagrado
 
                 if (getLogar != "S")
                 {
-                    if(getLogar == "B")
+                    if(getLogar == "A")
                     {
                         new MenuAdm().Show();
                         this.Hide();
