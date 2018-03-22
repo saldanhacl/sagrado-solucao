@@ -65,6 +65,12 @@
     <Compile Include="GerenciamentoDeUsuario.designer.cs">
       <DependentUpon>GerenciamentoDeUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="GerenUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GerenUser.Designer.cs">
+      <DependentUpon>GerenUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuFunc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,17 +89,17 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="TelaAberturaCaixa.cs">
+    <Compile Include="TelaAberturaCaixaAntiga.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TelaAberturaCaixa.Designer.cs">
-      <DependentUpon>TelaAberturaCaixa.cs</DependentUpon>
+    <Compile Include="TelaAberturaCaixaAntiga.Designer.cs">
+      <DependentUpon>TelaAberturaCaixaAntiga.cs</DependentUpon>
     </Compile>
-    <Compile Include="TipoUsuario.cs">
+    <Compile Include="FundoCaixa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TipoUsuario.Designer.cs">
-      <DependentUpon>TipoUsuario.cs</DependentUpon>
+    <Compile Include="FundoCaixa.Designer.cs">
+      <DependentUpon>FundoCaixa.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -118,6 +124,9 @@
     <EmbeddedResource Include="GerenciamentoDeUsuario.resx">
       <DependentUpon>GerenciamentoDeUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GerenUser.resx">
+      <DependentUpon>GerenUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuAdm.resx">
       <DependentUpon>MenuAdm.cs</DependentUpon>
     </EmbeddedResource>
@@ -127,11 +136,11 @@
     <EmbeddedResource Include="MenuFunc.resx">
       <DependentUpon>MenuFunc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TelaAberturaCaixa.resx">
-      <DependentUpon>TelaAberturaCaixa.cs</DependentUpon>
+    <EmbeddedResource Include="TelaAberturaCaixaAntiga.resx">
+      <DependentUpon>TelaAberturaCaixaAntiga.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TipoUsuario.resx">
-      <DependentUpon>TipoUsuario.cs</DependentUpon>
+    <EmbeddedResource Include="FundoCaixa.resx">
+      <DependentUpon>FundoCaixa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

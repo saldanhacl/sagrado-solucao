@@ -21,9 +21,6 @@ namespace Sagrado
         {
 
         }
-
-        
-
         private void btnGerencia_Click(object sender, EventArgs e)
         {
             new GerenciaFunc().Show();
@@ -56,12 +53,12 @@ namespace Sagrado
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new TipoUsuario().Show();
+            new FundoCaixa().Show();
         }
 
         private void btnGerenUser_Click(object sender, EventArgs e)
         {
-            
+            new GerenUser().Show();
         }
 
       

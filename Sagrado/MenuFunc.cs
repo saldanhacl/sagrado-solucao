@@ -32,5 +32,25 @@ namespace Sagrado
         {
 
         }
+
+        private void MenuFunc_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnComanda_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
+
+        private void btnControle_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

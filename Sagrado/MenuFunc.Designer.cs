@@ -20,6 +20,11 @@
             base.Dispose(disposing);
         }
 
+
+
+
+
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -28,117 +33,79 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuFunc));
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.btnOutros = new System.Windows.Forms.Button();
-            this.btnPorcao = new System.Windows.Forms.Button();
-            this.btnBebidas = new System.Windows.Forms.Button();
-            this.btnPratos = new System.Windows.Forms.Button();
+            this.btnControle = new System.Windows.Forms.Button();
+            this.btnComanda = new System.Windows.Forms.Button();
+            this.btnGerencia = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.btnGerenUser = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label5
+            // btnControle
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(575, 326);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(62, 21);
-            this.label5.TabIndex = 19;
-            this.label5.Text = "Outros";
+            this.btnControle.BackColor = System.Drawing.Color.White;
+            this.btnControle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnControle.ForeColor = System.Drawing.Color.Black;
+            this.btnControle.Location = new System.Drawing.Point(37, 87);
+            this.btnControle.Name = "btnControle";
+            this.btnControle.Size = new System.Drawing.Size(179, 49);
+            this.btnControle.TabIndex = 21;
+            this.btnControle.Text = "Finalizar";
+            this.btnControle.UseVisualStyleBackColor = false;
+            this.btnControle.Click += new System.EventHandler(this.btnControle_Click);
             // 
-            // label4
+            // btnComanda
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(335, 326);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 21);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "Porções";
+            this.btnComanda.BackColor = System.Drawing.Color.White;
+            this.btnComanda.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComanda.ForeColor = System.Drawing.Color.Black;
+            this.btnComanda.Location = new System.Drawing.Point(37, 32);
+            this.btnComanda.Name = "btnComanda";
+            this.btnComanda.Size = new System.Drawing.Size(179, 49);
+            this.btnComanda.TabIndex = 20;
+            this.btnComanda.Text = "Trocar Usuário";
+            this.btnComanda.UseVisualStyleBackColor = false;
+            this.btnComanda.Click += new System.EventHandler(this.btnComanda_Click);
             // 
-            // label3
+            // btnGerencia
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(575, 142);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 21);
-            this.label3.TabIndex = 17;
-            this.label3.Text = "Bebidas";
+            this.btnGerencia.BackgroundImage = global::Sagrado.Properties.Resources.if_check_49827;
+            this.btnGerencia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnGerencia.Location = new System.Drawing.Point(171, 203);
+            this.btnGerencia.Name = "btnGerencia";
+            this.btnGerencia.Size = new System.Drawing.Size(206, 97);
+            this.btnGerencia.TabIndex = 44;
+            this.btnGerencia.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // label7
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(335, 142);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 21);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "Pratos";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(206, 307);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(125, 20);
+            this.label7.TabIndex = 43;
+            this.label7.Text = "Registrar Venda";
             // 
-            // label1
+            // btnGerenUser
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Colonna MT", 32.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(40, 174);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 46);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "Sagrado";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.btnGerenUser.Image = global::Sagrado.Properties.Resources.cadastrofuniconario;
+            this.btnGerenUser.Location = new System.Drawing.Point(415, 203);
+            this.btnGerenUser.Name = "btnGerenUser";
+            this.btnGerenUser.Size = new System.Drawing.Size(206, 97);
+            this.btnGerenUser.TabIndex = 42;
+            this.btnGerenUser.UseVisualStyleBackColor = true;
             // 
-            // label6
+            // label8
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Colonna MT", 32.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(6, 128);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(248, 46);
-            this.label6.TabIndex = 21;
-            this.label6.Text = "Restaurante";
-            // 
-            // btnOutros
-            // 
-            this.btnOutros.Image = ((System.Drawing.Image)(resources.GetObject("btnOutros.Image")));
-            this.btnOutros.Location = new System.Drawing.Point(504, 213);
-            this.btnOutros.Name = "btnOutros";
-            this.btnOutros.Size = new System.Drawing.Size(206, 97);
-            this.btnOutros.TabIndex = 15;
-            this.btnOutros.UseVisualStyleBackColor = true;
-            // 
-            // btnPorcao
-            // 
-            this.btnPorcao.Image = ((System.Drawing.Image)(resources.GetObject("btnPorcao.Image")));
-            this.btnPorcao.Location = new System.Drawing.Point(260, 213);
-            this.btnPorcao.Name = "btnPorcao";
-            this.btnPorcao.Size = new System.Drawing.Size(206, 97);
-            this.btnPorcao.TabIndex = 14;
-            this.btnPorcao.UseVisualStyleBackColor = true;
-            // 
-            // btnBebidas
-            // 
-            this.btnBebidas.Image = ((System.Drawing.Image)(resources.GetObject("btnBebidas.Image")));
-            this.btnBebidas.Location = new System.Drawing.Point(504, 41);
-            this.btnBebidas.Name = "btnBebidas";
-            this.btnBebidas.Size = new System.Drawing.Size(206, 97);
-            this.btnBebidas.TabIndex = 13;
-            this.btnBebidas.UseVisualStyleBackColor = true;
-            this.btnBebidas.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // btnPratos
-            // 
-            this.btnPratos.Image = ((System.Drawing.Image)(resources.GetObject("btnPratos.Image")));
-            this.btnPratos.Location = new System.Drawing.Point(260, 41);
-            this.btnPratos.Name = "btnPratos";
-            this.btnPratos.Size = new System.Drawing.Size(206, 97);
-            this.btnPratos.TabIndex = 12;
-            this.btnPratos.UseVisualStyleBackColor = true;
-            this.btnPratos.Click += new System.EventHandler(this.button1_Click);
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(454, 307);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(132, 20);
+            this.label8.TabIndex = 41;
+            this.label8.Text = "Cadastrar Cliente";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // MenuFunc
             // 
@@ -146,33 +113,26 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(784, 561);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnOutros);
-            this.Controls.Add(this.btnPorcao);
-            this.Controls.Add(this.btnBebidas);
-            this.Controls.Add(this.btnPratos);
+            this.Controls.Add(this.btnGerencia);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.btnGerenUser);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.btnControle);
+            this.Controls.Add(this.btnComanda);
             this.Name = "MenuFunc";
-            this.Text = "Sagrado";
+            this.Text = "FUNCIONÁRIO";
+            this.Load += new System.EventHandler(this.MenuFunc_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnOutros;
-        private System.Windows.Forms.Button btnPorcao;
-        private System.Windows.Forms.Button btnBebidas;
-        private System.Windows.Forms.Button btnPratos;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnControle;
+        private System.Windows.Forms.Button btnComanda;
+        private System.Windows.Forms.Button btnGerencia;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnGerenUser;
+        private System.Windows.Forms.Label label8;
     }
 }

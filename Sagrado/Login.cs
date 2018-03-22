@@ -78,15 +78,19 @@ namespace Sagrado
 
                 if (getLogar != "S")
                 {
-                    if(getLogar == "A")
+                    if(getLogar == "A" && button1.BackColor == Color.LightBlue)
                     {
                         new MenuAdm().Show();
                         this.Hide();
                     }
-                    else
+                    else if (getLogar == "B" && button2.BackColor == Color.LightBlue)
                     {
                         new MenuFunc().Show();
                         this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Tipo de usuário incorreto.");
                     }
                     
                 }
@@ -124,5 +128,9 @@ namespace Sagrado
 
         }
 
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

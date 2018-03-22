@@ -17,7 +17,7 @@ namespace Sagrado
             InitializeComponent();
             this.CenterToScreen();
             pnComanda.Visible=false;
-            btnComanda.Select();
+            //btnComanda.Select();
             pnControle.Visible = true;
             pnGerenUser.Visible = false;
         }
@@ -94,6 +94,23 @@ namespace Sagrado
             pnComanda.Visible = false;
             pnControle.Visible = false;
             pnGerenUser.Visible = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            pnComanda.Visible = false;
+            pnControle.Visible = true;
+            pnGerenUser.Visible = false;
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

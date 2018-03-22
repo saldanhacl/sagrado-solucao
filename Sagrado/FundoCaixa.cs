@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Sagrado
 {
-    public partial class TipoUsuario : Form
+    public partial class FundoCaixa : Form
     {
-        public TipoUsuario()
+        public FundoCaixa()
         {
             InitializeComponent();
             this.CenterToScreen();
@@ -30,20 +30,10 @@ namespace Sagrado
 
         private void btnAdm_Click(object sender, EventArgs e)
         {
-
-            int tipoUsuario = 1;
-            new Login().Show();
-            this.Hide();
-
-
         }
 
         private void btnFunc_Click(object sender, EventArgs e)
         {
-            int tipoUsuario = 2;
-            new Login().Show();
-            this.Hide();
-
         }
 
         private void btnAdm_Click_1(object sender, EventArgs e)
