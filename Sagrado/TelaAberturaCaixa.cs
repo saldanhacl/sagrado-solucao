@@ -33,7 +33,7 @@ namespace TelaAberturaCaixa
             }
             MessageBox.Show("Caixa de texto vazia. Por favor digite um valor!");
             return;
-     }
+        }
    
         private void botaoCancelar(object sender, EventArgs e)
         {

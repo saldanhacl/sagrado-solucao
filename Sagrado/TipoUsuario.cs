@@ -45,5 +45,37 @@ namespace Sagrado
             this.Hide();
 
         }
+
+        private void btnAdm_Click_1(object sender, EventArgs e)
+        {
+            if (textBox1.TextLength > 0)
+            {
+                float valor = float.Parse(textBox1.Text);
+                if (valor <= 0)
+                {
+                    MessageBox.Show("Valor Inválido! Digite novamente.");
+                }
+                else
+                {
+                    MessageBox.Show("Caixa aberto com " + "R$: " + valor);
+                    this.Close();
+                }
+                
+            }
+            else
+            {
+                MessageBox.Show("Caixa de texto vazia. Por favor digite um valor!");
+            }
+            
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Tem certeza que quer cancelar?", "Sair", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            {
+                this.Close();
+            }
+        }
     }
 }
