@@ -88,7 +88,7 @@ namespace Sagrado
                     }
                     else
                     {
-                        new Comanda().Show();
+                        new MenuFunc().Show();
                         this.Hide();
                     }
                     

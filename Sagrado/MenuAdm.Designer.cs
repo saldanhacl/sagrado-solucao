@@ -53,7 +53,7 @@
             // btnComanda
             // 
             this.btnComanda.BackColor = System.Drawing.Color.White;
-            this.btnComanda.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComanda.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComanda.ForeColor = System.Drawing.Color.Black;
             this.btnComanda.Location = new System.Drawing.Point(0, 0);
             this.btnComanda.Name = "btnComanda";
@@ -66,7 +66,7 @@
             // btnControle
             // 
             this.btnControle.BackColor = System.Drawing.Color.White;
-            this.btnControle.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnControle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnControle.ForeColor = System.Drawing.Color.Black;
             this.btnControle.Location = new System.Drawing.Point(26, 266);
             this.btnControle.Name = "btnControle";
@@ -79,22 +79,25 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Colonna MT", 32.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(33, 35);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(19, 12);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(248, 46);
+            this.label2.Size = new System.Drawing.Size(233, 42);
             this.label2.TabIndex = 13;
             this.label2.Text = "Restaurante";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Colonna MT", 32.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(64, 81);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(52, 65);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(169, 46);
+            this.label3.Size = new System.Drawing.Size(167, 42);
             this.label3.TabIndex = 14;
             this.label3.Text = "Sagrado";
+            this.label3.Click += new System.EventHandler(this.label3_Click_1);
             // 
             // pnControle
             // 
