@@ -34,13 +34,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.btnGerencia = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnGerenUser = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label5
@@ -97,6 +97,17 @@
             this.label6.Text = "Registrar Venda";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(333, 436);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(81, 20);
+            this.label3.TabIndex = 41;
+            this.label3.Text = "Relatórios";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
             // btnGerencia
             // 
             this.btnGerencia.BackgroundImage = global::Sagrado.Properties.Resources.if_check_49827;
@@ -117,15 +128,15 @@
             this.button6.TabIndex = 37;
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnGerenUser
             // 
-            this.button5.Image = global::Sagrado.Properties.Resources.cadastrofuniconario;
-            this.button5.Location = new System.Drawing.Point(24, 169);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(206, 97);
-            this.button5.TabIndex = 36;
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnGerenUser.Image = global::Sagrado.Properties.Resources.cadastrofuniconario;
+            this.btnGerenUser.Location = new System.Drawing.Point(24, 169);
+            this.btnGerenUser.Name = "btnGerenUser";
+            this.btnGerenUser.Size = new System.Drawing.Size(206, 97);
+            this.btnGerenUser.TabIndex = 36;
+            this.btnGerenUser.UseVisualStyleBackColor = true;
+            this.btnGerenUser.Click += new System.EventHandler(this.btnGerenUser_Click);
             // 
             // button4
             // 
@@ -153,17 +164,7 @@
             this.button1.Size = new System.Drawing.Size(206, 97);
             this.button1.TabIndex = 28;
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(333, 436);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 20);
-            this.label3.TabIndex = 41;
-            this.label3.Text = "Relatórios";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Controle
             // 
@@ -175,7 +176,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnGerenUser);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -198,7 +199,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnGerenUser;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;

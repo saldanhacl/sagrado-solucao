@@ -59,6 +59,12 @@
     <Compile Include="GerenciaFunc.Designer.cs">
       <DependentUpon>GerenciaFunc.cs</DependentUpon>
     </Compile>
+    <Compile Include="GerenciamentoDeUsuario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GerenciamentoDeUsuario.designer.cs">
+      <DependentUpon>GerenciamentoDeUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuFunc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GerenciaFunc.resx">
       <DependentUpon>GerenciaFunc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GerenciamentoDeUsuario.resx">
+      <DependentUpon>GerenciamentoDeUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuAdm.resx">
       <DependentUpon>MenuAdm.cs</DependentUpon>

@@ -18,7 +18,8 @@ namespace Sagrado
             this.CenterToScreen();
             pnComanda.Visible=false;
             btnComanda.Select();
-            pnControle.Visible = true;;
+            pnControle.Visible = true;
+            pnGerenUser.Visible = false;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -45,12 +46,22 @@ namespace Sagrado
         {
             pnComanda.Visible = true;
             pnControle.Visible = false;
+            pnGerenUser.Visible = false;
         }
 
         private void btnControle_Click(object sender, EventArgs e)
         {
             pnComanda.Visible = false;
             pnControle.Visible = true;
+            pnGerenUser.Visible = false;
+        }
+
+        private void btnGerenUser_Click(object sender, EventArgs e)
+        {
+            pnComanda.Visible = false;
+            pnControle.Visible = false;
+            pnGerenUser.Visible = true;
+
         }
 
         private void MenuAdm_Load(object sender, EventArgs e)
@@ -76,6 +87,13 @@ namespace Sagrado
         private void label3_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pnComanda.Visible = false;
+            pnControle.Visible = false;
+            pnGerenUser.Visible = true;
         }
     }
 }

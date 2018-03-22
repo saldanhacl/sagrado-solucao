@@ -49,9 +49,6 @@ namespace Sagrado
                 return "S";
             }
             
-
-
-
         }
 
 

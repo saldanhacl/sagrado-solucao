@@ -22,11 +22,7 @@ namespace Sagrado
 
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            new CadastroFunc().Show();
-            
-        }
+        
 
         private void btnGerencia_Click(object sender, EventArgs e)
         {
@@ -57,5 +53,17 @@ namespace Sagrado
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new TipoUsuario().Show();
+        }
+
+        private void btnGerenUser_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+      
     }
 }

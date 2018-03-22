@@ -35,8 +35,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.pnGerenUser = new Sagrado.pnGerenUser();
             this.pnControle = new Sagrado.Controle();
             this.pnComanda = new Sagrado.Comanda();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
@@ -99,6 +101,14 @@
             this.label3.Text = "Sagrado";
             this.label3.Click += new System.EventHandler(this.label3_Click_1);
             // 
+            // pnGerenUser
+            // 
+            this.pnGerenUser.BackColor = System.Drawing.Color.White;
+            this.pnGerenUser.Location = new System.Drawing.Point(249, 131);
+            this.pnGerenUser.Name = "pnGerenUser";
+            this.pnGerenUser.Size = new System.Drawing.Size(500, 300);
+            this.pnGerenUser.TabIndex = 15;
+            // 
             // pnControle
             // 
             this.pnControle.BackColor = System.Drawing.Color.White;
@@ -117,12 +127,27 @@
             this.pnComanda.TabIndex = 11;
             this.pnComanda.Load += new System.EventHandler(this.pnComanda_Load);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(26, 351);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(179, 80);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Gerenciar Funcionários";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // MenuAdm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(784, 692);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.pnGerenUser);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pnControle);
@@ -150,5 +175,7 @@
         private Controle pnControle;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private pnGerenUser pnGerenUser;
+        private System.Windows.Forms.Button button1;
     }
 }
