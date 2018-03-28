@@ -53,6 +53,12 @@
       <DependentUpon>CadastroFunc.cs</DependentUpon>
     </Compile>
     <Compile Include="DataBaseConnection.cs" />
+    <Compile Include="RegVendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegVendas.Designer.cs">
+      <DependentUpon>RegVendas.cs</DependentUpon>
+    </Compile>
     <Compile Include="GerenciaFunc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,9 @@
     </Compile>
     <EmbeddedResource Include="CadastroFunc.resx">
       <DependentUpon>CadastroFunc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegVendas.resx">
+      <DependentUpon>RegVendas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GerenciaFunc.resx">
       <DependentUpon>GerenciaFunc.cs</DependentUpon>
