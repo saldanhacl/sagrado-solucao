@@ -55,7 +55,7 @@ namespace Sagrado
 
         private void btnGerencia_Click(object sender, EventArgs e)
         {
-            new RegVendas().Show();
+            new RegEntrada().Show();
         }
 
         private void btnGerenUser_Click(object sender, EventArgs e)

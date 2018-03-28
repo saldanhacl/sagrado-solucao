@@ -34,27 +34,15 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuFunc));
-            this.btnGerencia = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnGerenUser = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tROCARUSUÁRIOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eNCERRARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnGerencia = new System.Windows.Forms.Button();
+            this.btnGerenUser = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnGerencia
-            // 
-            this.btnGerencia.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGerencia.BackgroundImage")));
-            this.btnGerencia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnGerencia.ForeColor = System.Drawing.Color.White;
-            this.btnGerencia.Location = new System.Drawing.Point(171, 203);
-            this.btnGerencia.Name = "btnGerencia";
-            this.btnGerencia.Size = new System.Drawing.Size(200, 100);
-            this.btnGerencia.TabIndex = 44;
-            this.btnGerencia.UseVisualStyleBackColor = true;
-            this.btnGerencia.Click += new System.EventHandler(this.btnGerencia_Click);
             // 
             // label7
             // 
@@ -66,16 +54,6 @@
             this.label7.TabIndex = 43;
             this.label7.Text = "REGISTRAR ENTRADA";
             this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // btnGerenUser
-            // 
-            this.btnGerenUser.Image = ((System.Drawing.Image)(resources.GetObject("btnGerenUser.Image")));
-            this.btnGerenUser.Location = new System.Drawing.Point(415, 203);
-            this.btnGerenUser.Name = "btnGerenUser";
-            this.btnGerenUser.Size = new System.Drawing.Size(200, 100);
-            this.btnGerenUser.TabIndex = 42;
-            this.btnGerenUser.UseVisualStyleBackColor = true;
-            this.btnGerenUser.Click += new System.EventHandler(this.btnGerenUser_Click);
             // 
             // label8
             // 
@@ -116,6 +94,28 @@
             this.eNCERRARToolStripMenuItem.Size = new System.Drawing.Size(127, 20);
             this.eNCERRARToolStripMenuItem.Text = "ENCERRAR SISTEMA";
             this.eNCERRARToolStripMenuItem.Click += new System.EventHandler(this.eNCERRARToolStripMenuItem_Click);
+            // 
+            // btnGerencia
+            // 
+            this.btnGerencia.BackgroundImage = global::Sagrado.Properties.Resources.BTN_CAIXA2;
+            this.btnGerencia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnGerencia.ForeColor = System.Drawing.Color.White;
+            this.btnGerencia.Location = new System.Drawing.Point(171, 203);
+            this.btnGerencia.Name = "btnGerencia";
+            this.btnGerencia.Size = new System.Drawing.Size(200, 100);
+            this.btnGerencia.TabIndex = 44;
+            this.btnGerencia.UseVisualStyleBackColor = true;
+            this.btnGerencia.Click += new System.EventHandler(this.btnGerencia_Click);
+            // 
+            // btnGerenUser
+            // 
+            this.btnGerenUser.Image = global::Sagrado.Properties.Resources.BTN_ADDCLIENTE;
+            this.btnGerenUser.Location = new System.Drawing.Point(415, 203);
+            this.btnGerenUser.Name = "btnGerenUser";
+            this.btnGerenUser.Size = new System.Drawing.Size(200, 100);
+            this.btnGerenUser.TabIndex = 42;
+            this.btnGerenUser.UseVisualStyleBackColor = true;
+            this.btnGerenUser.Click += new System.EventHandler(this.btnGerenUser_Click);
             // 
             // MenuFunc
             // 

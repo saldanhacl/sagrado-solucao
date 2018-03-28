@@ -36,22 +36,23 @@ namespace Sagrado
 
         private void BTN_ADD_USER_Click(object sender, EventArgs e)
         {
-            new CadastroFunc().Show();
+            new CadastrarFunc().Show();
         }
 
         private void BTN_EDIT_USER_Click(object sender, EventArgs e)
         {
-
+            //essa função está com erro do UPDATE
+            new AlterarFunc().Show();
         }
 
         private void BTN_EXCLUIR_USER_Click(object sender, EventArgs e)
         {
-
+            //FAZER
         }
 
         private void BTN_CONSUL_USER_Click(object sender, EventArgs e)
         {
-
+            new ConsultarUser().Show();
         }
     }
 }

@@ -11,10 +11,10 @@ using System.Windows.Forms;
 
 namespace Sagrado
 {
-    public partial class CadastroFunc : Form
+    public partial class CadastrarFunc : Form
     {
        
-        public CadastroFunc()
+        public CadastrarFunc()
         {
             InitializeComponent();
             this.CenterToScreen();

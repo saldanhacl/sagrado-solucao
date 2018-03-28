@@ -30,34 +30,22 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GerenUser));
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.BTN_ADD_USER = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.BTN_CONSUL_USER = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.BTN_EDIT_USER = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.BTN_EXCLUIR_USER = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.pAINELToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tROCARUSUÁRIOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eNCERRARSISTEMAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            this.BTN_ADD_USER = new System.Windows.Forms.Button();
+            this.BTN_CONSUL_USER = new System.Windows.Forms.Button();
+            this.BTN_EDIT_USER = new System.Windows.Forms.Button();
+            this.BTN_EXCLUIR_USER = new System.Windows.Forms.Button();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // BTN_ADD_USER
-            // 
-            this.BTN_ADD_USER.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BTN_ADD_USER.BackgroundImage")));
-            this.BTN_ADD_USER.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.BTN_ADD_USER.ForeColor = System.Drawing.Color.White;
-            this.BTN_ADD_USER.Location = new System.Drawing.Point(160, 117);
-            this.BTN_ADD_USER.Name = "BTN_ADD_USER";
-            this.BTN_ADD_USER.Size = new System.Drawing.Size(200, 100);
-            this.BTN_ADD_USER.TabIndex = 62;
-            this.BTN_ADD_USER.UseVisualStyleBackColor = true;
-            this.BTN_ADD_USER.Click += new System.EventHandler(this.BTN_ADD_USER_Click);
             // 
             // label1
             // 
@@ -69,16 +57,6 @@
             this.label1.TabIndex = 61;
             this.label1.Text = "ADICIONAR USUÁRIO";
             // 
-            // BTN_CONSUL_USER
-            // 
-            this.BTN_CONSUL_USER.Image = ((System.Drawing.Image)(resources.GetObject("BTN_CONSUL_USER.Image")));
-            this.BTN_CONSUL_USER.Location = new System.Drawing.Point(404, 293);
-            this.BTN_CONSUL_USER.Name = "BTN_CONSUL_USER";
-            this.BTN_CONSUL_USER.Size = new System.Drawing.Size(200, 100);
-            this.BTN_CONSUL_USER.TabIndex = 60;
-            this.BTN_CONSUL_USER.UseVisualStyleBackColor = true;
-            this.BTN_CONSUL_USER.Click += new System.EventHandler(this.BTN_CONSUL_USER_Click);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -89,18 +67,6 @@
             this.label2.TabIndex = 59;
             this.label2.Text = "CONSULTAR USUÁRIO";
             // 
-            // BTN_EDIT_USER
-            // 
-            this.BTN_EDIT_USER.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BTN_EDIT_USER.BackgroundImage")));
-            this.BTN_EDIT_USER.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.BTN_EDIT_USER.ForeColor = System.Drawing.Color.White;
-            this.BTN_EDIT_USER.Location = new System.Drawing.Point(404, 117);
-            this.BTN_EDIT_USER.Name = "BTN_EDIT_USER";
-            this.BTN_EDIT_USER.Size = new System.Drawing.Size(200, 100);
-            this.BTN_EDIT_USER.TabIndex = 58;
-            this.BTN_EDIT_USER.UseVisualStyleBackColor = true;
-            this.BTN_EDIT_USER.Click += new System.EventHandler(this.BTN_EDIT_USER_Click);
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -110,16 +76,6 @@
             this.label7.Size = new System.Drawing.Size(135, 16);
             this.label7.TabIndex = 57;
             this.label7.Text = "ALTERAR USUÁRIO";
-            // 
-            // BTN_EXCLUIR_USER
-            // 
-            this.BTN_EXCLUIR_USER.Image = ((System.Drawing.Image)(resources.GetObject("BTN_EXCLUIR_USER.Image")));
-            this.BTN_EXCLUIR_USER.Location = new System.Drawing.Point(160, 293);
-            this.BTN_EXCLUIR_USER.Name = "BTN_EXCLUIR_USER";
-            this.BTN_EXCLUIR_USER.Size = new System.Drawing.Size(200, 100);
-            this.BTN_EXCLUIR_USER.TabIndex = 56;
-            this.BTN_EXCLUIR_USER.UseVisualStyleBackColor = true;
-            this.BTN_EXCLUIR_USER.Click += new System.EventHandler(this.BTN_EXCLUIR_USER_Click);
             // 
             // label8
             // 
@@ -164,6 +120,50 @@
             this.eNCERRARSISTEMAToolStripMenuItem.Text = "ENCERRAR SISTEMA";
             this.eNCERRARSISTEMAToolStripMenuItem.Click += new System.EventHandler(this.eNCERRARSISTEMAToolStripMenuItem_Click);
             // 
+            // BTN_ADD_USER
+            // 
+            this.BTN_ADD_USER.BackgroundImage = global::Sagrado.Properties.Resources.BTN_ADD_USER;
+            this.BTN_ADD_USER.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BTN_ADD_USER.ForeColor = System.Drawing.Color.White;
+            this.BTN_ADD_USER.Location = new System.Drawing.Point(160, 117);
+            this.BTN_ADD_USER.Name = "BTN_ADD_USER";
+            this.BTN_ADD_USER.Size = new System.Drawing.Size(200, 100);
+            this.BTN_ADD_USER.TabIndex = 62;
+            this.BTN_ADD_USER.UseVisualStyleBackColor = true;
+            this.BTN_ADD_USER.Click += new System.EventHandler(this.BTN_ADD_USER_Click);
+            // 
+            // BTN_CONSUL_USER
+            // 
+            this.BTN_CONSUL_USER.Image = global::Sagrado.Properties.Resources.BTN_CONSULTAR_USER;
+            this.BTN_CONSUL_USER.Location = new System.Drawing.Point(404, 293);
+            this.BTN_CONSUL_USER.Name = "BTN_CONSUL_USER";
+            this.BTN_CONSUL_USER.Size = new System.Drawing.Size(200, 100);
+            this.BTN_CONSUL_USER.TabIndex = 60;
+            this.BTN_CONSUL_USER.UseVisualStyleBackColor = true;
+            this.BTN_CONSUL_USER.Click += new System.EventHandler(this.BTN_CONSUL_USER_Click);
+            // 
+            // BTN_EDIT_USER
+            // 
+            this.BTN_EDIT_USER.BackgroundImage = global::Sagrado.Properties.Resources.BTN_EDIT_USER;
+            this.BTN_EDIT_USER.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BTN_EDIT_USER.ForeColor = System.Drawing.Color.White;
+            this.BTN_EDIT_USER.Location = new System.Drawing.Point(404, 117);
+            this.BTN_EDIT_USER.Name = "BTN_EDIT_USER";
+            this.BTN_EDIT_USER.Size = new System.Drawing.Size(200, 100);
+            this.BTN_EDIT_USER.TabIndex = 58;
+            this.BTN_EDIT_USER.UseVisualStyleBackColor = true;
+            this.BTN_EDIT_USER.Click += new System.EventHandler(this.BTN_EDIT_USER_Click);
+            // 
+            // BTN_EXCLUIR_USER
+            // 
+            this.BTN_EXCLUIR_USER.Image = global::Sagrado.Properties.Resources.BTN_EXCLUIR_USER;
+            this.BTN_EXCLUIR_USER.Location = new System.Drawing.Point(160, 293);
+            this.BTN_EXCLUIR_USER.Name = "BTN_EXCLUIR_USER";
+            this.BTN_EXCLUIR_USER.Size = new System.Drawing.Size(200, 100);
+            this.BTN_EXCLUIR_USER.TabIndex = 56;
+            this.BTN_EXCLUIR_USER.UseVisualStyleBackColor = true;
+            this.BTN_EXCLUIR_USER.Click += new System.EventHandler(this.BTN_EXCLUIR_USER_Click);
+            // 
             // GerenUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -184,9 +184,9 @@
             this.Name = "GerenUser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GERENCIAMENTO DE USUÁRIO";
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

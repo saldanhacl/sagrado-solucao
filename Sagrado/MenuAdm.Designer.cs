@@ -30,23 +30,23 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuAdm));
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.pAINELToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tROCARUSUÁRIOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eNCERRARSISTEMAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.BTN_RETIRAR_DINHEIRO = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.BTN_GERENCIAR_CLIENTE = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.BTN_REGISTRAR_ENTRADA = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.BTN_GERENCIAR_USER = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.BTN_CONSULTA_MOVI = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            this.BTN_CONSULTA_MOVI = new System.Windows.Forms.Button();
+            this.BTN_REGISTRAR_ENTRADA = new System.Windows.Forms.Button();
+            this.BTN_GERENCIAR_USER = new System.Windows.Forms.Button();
+            this.BTN_RETIRAR_DINHEIRO = new System.Windows.Forms.Button();
+            this.BTN_GERENCIAR_CLIENTE = new System.Windows.Forms.Button();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -82,17 +82,6 @@
             this.eNCERRARSISTEMAToolStripMenuItem.Text = "ENCERRAR SISTEMA";
             this.eNCERRARSISTEMAToolStripMenuItem.Click += new System.EventHandler(this.eNCERRARSISTEMAToolStripMenuItem_Click);
             // 
-            // BTN_RETIRAR_DINHEIRO
-            // 
-            this.BTN_RETIRAR_DINHEIRO.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BTN_RETIRAR_DINHEIRO.BackgroundImage")));
-            this.BTN_RETIRAR_DINHEIRO.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.BTN_RETIRAR_DINHEIRO.ForeColor = System.Drawing.Color.White;
-            this.BTN_RETIRAR_DINHEIRO.Location = new System.Drawing.Point(292, 107);
-            this.BTN_RETIRAR_DINHEIRO.Name = "BTN_RETIRAR_DINHEIRO";
-            this.BTN_RETIRAR_DINHEIRO.Size = new System.Drawing.Size(200, 100);
-            this.BTN_RETIRAR_DINHEIRO.TabIndex = 48;
-            this.BTN_RETIRAR_DINHEIRO.UseVisualStyleBackColor = true;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -102,16 +91,6 @@
             this.label7.Size = new System.Drawing.Size(159, 16);
             this.label7.TabIndex = 47;
             this.label7.Text = "REGISTRAR RETIRADA";
-            // 
-            // BTN_GERENCIAR_CLIENTE
-            // 
-            this.BTN_GERENCIAR_CLIENTE.Image = ((System.Drawing.Image)(resources.GetObject("BTN_GERENCIAR_CLIENTE.Image")));
-            this.BTN_GERENCIAR_CLIENTE.Location = new System.Drawing.Point(48, 283);
-            this.BTN_GERENCIAR_CLIENTE.Name = "BTN_GERENCIAR_CLIENTE";
-            this.BTN_GERENCIAR_CLIENTE.Size = new System.Drawing.Size(200, 100);
-            this.BTN_GERENCIAR_CLIENTE.TabIndex = 46;
-            this.BTN_GERENCIAR_CLIENTE.UseVisualStyleBackColor = true;
-            this.BTN_GERENCIAR_CLIENTE.Click += new System.EventHandler(this.BTN_GERENCIAR_CLIENTE_Click);
             // 
             // label8
             // 
@@ -123,18 +102,6 @@
             this.label8.TabIndex = 45;
             this.label8.Text = "GERENCIAR CLIENTE";
             // 
-            // BTN_REGISTRAR_ENTRADA
-            // 
-            this.BTN_REGISTRAR_ENTRADA.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BTN_REGISTRAR_ENTRADA.BackgroundImage")));
-            this.BTN_REGISTRAR_ENTRADA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.BTN_REGISTRAR_ENTRADA.ForeColor = System.Drawing.Color.White;
-            this.BTN_REGISTRAR_ENTRADA.Location = new System.Drawing.Point(48, 107);
-            this.BTN_REGISTRAR_ENTRADA.Name = "BTN_REGISTRAR_ENTRADA";
-            this.BTN_REGISTRAR_ENTRADA.Size = new System.Drawing.Size(200, 100);
-            this.BTN_REGISTRAR_ENTRADA.TabIndex = 52;
-            this.BTN_REGISTRAR_ENTRADA.UseVisualStyleBackColor = true;
-            this.BTN_REGISTRAR_ENTRADA.Click += new System.EventHandler(this.BTN_REGISTRAR_ENTRADA_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -144,16 +111,6 @@
             this.label1.Size = new System.Drawing.Size(156, 16);
             this.label1.TabIndex = 51;
             this.label1.Text = "REGISTRAR ENTRADA";
-            // 
-            // BTN_GERENCIAR_USER
-            // 
-            this.BTN_GERENCIAR_USER.Image = ((System.Drawing.Image)(resources.GetObject("BTN_GERENCIAR_USER.Image")));
-            this.BTN_GERENCIAR_USER.Location = new System.Drawing.Point(292, 283);
-            this.BTN_GERENCIAR_USER.Name = "BTN_GERENCIAR_USER";
-            this.BTN_GERENCIAR_USER.Size = new System.Drawing.Size(200, 100);
-            this.BTN_GERENCIAR_USER.TabIndex = 50;
-            this.BTN_GERENCIAR_USER.UseVisualStyleBackColor = true;
-            this.BTN_GERENCIAR_USER.Click += new System.EventHandler(this.BTN_GERENCIAR_USER_Click);
             // 
             // label2
             // 
@@ -165,17 +122,6 @@
             this.label2.TabIndex = 49;
             this.label2.Text = "GERENCIAR USUÁRIO";
             // 
-            // BTN_CONSULTA_MOVI
-            // 
-            this.BTN_CONSULTA_MOVI.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BTN_CONSULTA_MOVI.BackgroundImage")));
-            this.BTN_CONSULTA_MOVI.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.BTN_CONSULTA_MOVI.ForeColor = System.Drawing.Color.White;
-            this.BTN_CONSULTA_MOVI.Location = new System.Drawing.Point(535, 107);
-            this.BTN_CONSULTA_MOVI.Name = "BTN_CONSULTA_MOVI";
-            this.BTN_CONSULTA_MOVI.Size = new System.Drawing.Size(200, 100);
-            this.BTN_CONSULTA_MOVI.TabIndex = 54;
-            this.BTN_CONSULTA_MOVI.UseVisualStyleBackColor = true;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -185,6 +131,61 @@
             this.label3.Size = new System.Drawing.Size(139, 16);
             this.label3.TabIndex = 53;
             this.label3.Text = "CONSULTAR SALDO";
+            // 
+            // BTN_CONSULTA_MOVI
+            // 
+            this.BTN_CONSULTA_MOVI.BackgroundImage = global::Sagrado.Properties.Resources.BTN_SALDO;
+            this.BTN_CONSULTA_MOVI.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BTN_CONSULTA_MOVI.ForeColor = System.Drawing.Color.White;
+            this.BTN_CONSULTA_MOVI.Location = new System.Drawing.Point(535, 107);
+            this.BTN_CONSULTA_MOVI.Name = "BTN_CONSULTA_MOVI";
+            this.BTN_CONSULTA_MOVI.Size = new System.Drawing.Size(200, 100);
+            this.BTN_CONSULTA_MOVI.TabIndex = 54;
+            this.BTN_CONSULTA_MOVI.UseVisualStyleBackColor = true;
+            // 
+            // BTN_REGISTRAR_ENTRADA
+            // 
+            this.BTN_REGISTRAR_ENTRADA.BackgroundImage = global::Sagrado.Properties.Resources.BTN_CAIXA2;
+            this.BTN_REGISTRAR_ENTRADA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BTN_REGISTRAR_ENTRADA.ForeColor = System.Drawing.Color.White;
+            this.BTN_REGISTRAR_ENTRADA.Location = new System.Drawing.Point(48, 107);
+            this.BTN_REGISTRAR_ENTRADA.Name = "BTN_REGISTRAR_ENTRADA";
+            this.BTN_REGISTRAR_ENTRADA.Size = new System.Drawing.Size(200, 100);
+            this.BTN_REGISTRAR_ENTRADA.TabIndex = 52;
+            this.BTN_REGISTRAR_ENTRADA.UseVisualStyleBackColor = true;
+            this.BTN_REGISTRAR_ENTRADA.Click += new System.EventHandler(this.BTN_REGISTRAR_ENTRADA_Click);
+            // 
+            // BTN_GERENCIAR_USER
+            // 
+            this.BTN_GERENCIAR_USER.Image = global::Sagrado.Properties.Resources.BTN_GERENCIAR_USUARIO;
+            this.BTN_GERENCIAR_USER.Location = new System.Drawing.Point(292, 283);
+            this.BTN_GERENCIAR_USER.Name = "BTN_GERENCIAR_USER";
+            this.BTN_GERENCIAR_USER.Size = new System.Drawing.Size(200, 100);
+            this.BTN_GERENCIAR_USER.TabIndex = 50;
+            this.BTN_GERENCIAR_USER.UseVisualStyleBackColor = true;
+            this.BTN_GERENCIAR_USER.Click += new System.EventHandler(this.BTN_GERENCIAR_USER_Click);
+            // 
+            // BTN_RETIRAR_DINHEIRO
+            // 
+            this.BTN_RETIRAR_DINHEIRO.BackgroundImage = global::Sagrado.Properties.Resources.BTN_RETIRAR_DINHEIRO2;
+            this.BTN_RETIRAR_DINHEIRO.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BTN_RETIRAR_DINHEIRO.ForeColor = System.Drawing.Color.White;
+            this.BTN_RETIRAR_DINHEIRO.Location = new System.Drawing.Point(292, 107);
+            this.BTN_RETIRAR_DINHEIRO.Name = "BTN_RETIRAR_DINHEIRO";
+            this.BTN_RETIRAR_DINHEIRO.Size = new System.Drawing.Size(200, 100);
+            this.BTN_RETIRAR_DINHEIRO.TabIndex = 48;
+            this.BTN_RETIRAR_DINHEIRO.UseVisualStyleBackColor = true;
+            this.BTN_RETIRAR_DINHEIRO.Click += new System.EventHandler(this.BTN_RETIRAR_DINHEIRO_Click);
+            // 
+            // BTN_GERENCIAR_CLIENTE
+            // 
+            this.BTN_GERENCIAR_CLIENTE.Image = global::Sagrado.Properties.Resources.BTN_ADDCLIENTE;
+            this.BTN_GERENCIAR_CLIENTE.Location = new System.Drawing.Point(48, 283);
+            this.BTN_GERENCIAR_CLIENTE.Name = "BTN_GERENCIAR_CLIENTE";
+            this.BTN_GERENCIAR_CLIENTE.Size = new System.Drawing.Size(200, 100);
+            this.BTN_GERENCIAR_CLIENTE.TabIndex = 46;
+            this.BTN_GERENCIAR_CLIENTE.UseVisualStyleBackColor = true;
+            this.BTN_GERENCIAR_CLIENTE.Click += new System.EventHandler(this.BTN_GERENCIAR_CLIENTE_Click);
             // 
             // MenuAdm
             // 
@@ -210,9 +211,9 @@
             this.Name = "MenuAdm";
             this.Text = "PAINEL ADMINISTRADOR";
             this.Load += new System.EventHandler(this.MenuAdm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

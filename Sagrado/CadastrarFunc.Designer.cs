@@ -1,6 +1,6 @@
 ﻿namespace Sagrado
 {
-    partial class CadastroFunc
+    partial class CadastrarFunc
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastroFunc));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastrarFunc));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -55,14 +55,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BTN_CANCELAR = new System.Windows.Forms.PictureBox();
             this.BTN_CONFIRMAR = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BTN_CANCELAR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BTN_CONFIRMAR)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -359,18 +359,9 @@
             this.label10.TabIndex = 46;
             this.label10.Text = "CONFIRMAR SENHA:";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(289, 28);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(200, 100);
-            this.pictureBox1.TabIndex = 47;
-            this.pictureBox1.TabStop = false;
-            // 
             // BTN_CANCELAR
             // 
-            this.BTN_CANCELAR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BTN_CANCELAR.BackgroundImage")));
+            this.BTN_CANCELAR.BackgroundImage = global::Sagrado.Properties.Resources.BTN_CANCEL;
             this.BTN_CANCELAR.Location = new System.Drawing.Point(597, 479);
             this.BTN_CANCELAR.Name = "BTN_CANCELAR";
             this.BTN_CANCELAR.Size = new System.Drawing.Size(50, 50);
@@ -380,13 +371,22 @@
             // 
             // BTN_CONFIRMAR
             // 
-            this.BTN_CONFIRMAR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BTN_CONFIRMAR.BackgroundImage")));
+            this.BTN_CONFIRMAR.BackgroundImage = global::Sagrado.Properties.Resources.BTN_CHECK;
             this.BTN_CONFIRMAR.Location = new System.Drawing.Point(667, 478);
             this.BTN_CONFIRMAR.Name = "BTN_CONFIRMAR";
             this.BTN_CONFIRMAR.Size = new System.Drawing.Size(50, 50);
             this.BTN_CONFIRMAR.TabIndex = 48;
             this.BTN_CONFIRMAR.TabStop = false;
             this.BTN_CONFIRMAR.Click += new System.EventHandler(this.BTN_CONFIRMAR_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Sagrado.Properties.Resources.BTN_ADD_USER;
+            this.pictureBox1.Location = new System.Drawing.Point(289, 28);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(200, 100);
+            this.pictureBox1.TabIndex = 47;
+            this.pictureBox1.TabStop = false;
             // 
             // CadastroFunc
             // 
@@ -431,9 +431,9 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BTN_CANCELAR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BTN_CONFIRMAR)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

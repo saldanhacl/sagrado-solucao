@@ -47,13 +47,18 @@ namespace Sagrado
 
         private void BTN_REGISTRAR_ENTRADA_Click(object sender, EventArgs e)
         {
-            new RegVendas().Show();
+            new RegEntrada().Show();
         }
 
         private void BTN_GERENCIAR_USER_Click(object sender, EventArgs e)
         {
             new GerenUser().Show();
             this.Close();
+        }
+
+        private void BTN_RETIRAR_DINHEIRO_Click(object sender, EventArgs e)
+        {
+            new RegRetirada().Show();
         }
     }
 }
