@@ -68,12 +68,12 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.textBox1.Location = new System.Drawing.Point(190, 202);
+            this.textBox1.Location = new System.Drawing.Point(189, 202);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.MaxLength = 50;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(527, 23);
-            this.textBox1.TabIndex = 2;
+            this.textBox1.TabIndex = 3;
             // 
             // label1
             // 
@@ -90,11 +90,11 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F);
-            this.radioButton1.Location = new System.Drawing.Point(9, 3);
+            this.radioButton1.Location = new System.Drawing.Point(9, 2);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(114, 22);
-            this.radioButton1.TabIndex = 5;
+            this.radioButton1.TabIndex = 9;
             this.radioButton1.Text = "MASCULINO";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
@@ -103,11 +103,11 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Checked = true;
             this.radioButton2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.radioButton2.Location = new System.Drawing.Point(154, 4);
+            this.radioButton2.Location = new System.Drawing.Point(155, 4);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(96, 21);
-            this.radioButton2.TabIndex = 6;
+            this.radioButton2.TabIndex = 10;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "FEMININO";
             this.radioButton2.UseVisualStyleBackColor = true;
@@ -120,75 +120,75 @@
             this.dateTimePicker1.CalendarTitleForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(190, 334);
+            this.dateTimePicker1.Location = new System.Drawing.Point(189, 334);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.MaxDate = new System.DateTime(2018, 3, 28, 0, 0, 0, 0);
             this.dateTimePicker1.MinDate = new System.DateTime(1918, 1, 1, 0, 0, 0, 0);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(158, 23);
-            this.dateTimePicker1.TabIndex = 9;
+            this.dateTimePicker1.Size = new System.Drawing.Size(159, 23);
+            this.dateTimePicker1.TabIndex = 8;
             this.dateTimePicker1.Value = new System.DateTime(2018, 3, 28, 0, 0, 0, 0);
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F);
-            this.textBox2.Location = new System.Drawing.Point(522, 246);
+            this.textBox2.Location = new System.Drawing.Point(523, 246);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.MaxLength = 11;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(195, 24);
-            this.textBox2.TabIndex = 13;
+            this.textBox2.TabIndex = 5;
             // 
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.textBox3.Location = new System.Drawing.Point(190, 247);
+            this.textBox3.Location = new System.Drawing.Point(189, 247);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.MaxLength = 8;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(241, 23);
-            this.textBox3.TabIndex = 14;
+            this.textBox3.TabIndex = 4;
             // 
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F);
-            this.textBox4.Location = new System.Drawing.Point(190, 386);
+            this.textBox4.Location = new System.Drawing.Point(189, 386);
             this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.MaxLength = 50;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(527, 24);
-            this.textBox4.TabIndex = 18;
+            this.textBox4.TabIndex = 11;
             // 
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F);
-            this.textBox5.Location = new System.Drawing.Point(522, 291);
+            this.textBox5.Location = new System.Drawing.Point(523, 290);
             this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.MaxLength = 11;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(195, 24);
-            this.textBox5.TabIndex = 19;
+            this.textBox5.TabIndex = 7;
             // 
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F);
-            this.textBox6.Location = new System.Drawing.Point(190, 291);
+            this.textBox6.Location = new System.Drawing.Point(189, 290);
             this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.MaxLength = 10;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(241, 24);
-            this.textBox6.TabIndex = 20;
+            this.textBox6.TabIndex = 6;
             // 
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F);
-            this.textBox7.Location = new System.Drawing.Point(190, 432);
+            this.textBox7.Location = new System.Drawing.Point(189, 432);
             this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.MaxLength = 8;
             this.textBox7.Name = "textBox7";
             this.textBox7.PasswordChar = 'x';
-            this.textBox7.Size = new System.Drawing.Size(158, 24);
-            this.textBox7.TabIndex = 27;
+            this.textBox7.Size = new System.Drawing.Size(159, 24);
+            this.textBox7.TabIndex = 12;
             this.textBox7.UseSystemPasswordChar = true;
             // 
             // textBox8
@@ -200,8 +200,8 @@
             this.textBox8.MaxLength = 8;
             this.textBox8.Name = "textBox8";
             this.textBox8.PasswordChar = 'x';
-            this.textBox8.Size = new System.Drawing.Size(158, 24);
-            this.textBox8.TabIndex = 28;
+            this.textBox8.Size = new System.Drawing.Size(159, 24);
+            this.textBox8.TabIndex = 13;
             this.textBox8.UseSystemPasswordChar = true;
             // 
             // radioButton3
@@ -213,7 +213,7 @@
             this.radioButton3.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(124, 21);
-            this.radioButton3.TabIndex = 32;
+            this.radioButton3.TabIndex = 1;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "FUNCIONÁRIO";
             this.radioButton3.UseVisualStyleBackColor = true;
@@ -225,7 +225,7 @@
             this.radioButton4.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(139, 20);
-            this.radioButton4.TabIndex = 31;
+            this.radioButton4.TabIndex = 2;
             this.radioButton4.Text = "ADMINISTRADOR";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
@@ -253,7 +253,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F);
-            this.label3.Location = new System.Drawing.Point(130, 165);
+            this.label3.Location = new System.Drawing.Point(131, 165);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(46, 18);
@@ -308,7 +308,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F);
-            this.label9.Location = new System.Drawing.Point(23, 339);
+            this.label9.Location = new System.Drawing.Point(23, 338);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(153, 18);
@@ -319,7 +319,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F);
-            this.label4.Location = new System.Drawing.Point(399, 339);
+            this.label4.Location = new System.Drawing.Point(399, 338);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(54, 18);
@@ -330,7 +330,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F);
-            this.label2.Location = new System.Drawing.Point(116, 392);
+            this.label2.Location = new System.Drawing.Point(116, 391);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(60, 18);
@@ -363,8 +363,9 @@
             // 
             this.BTN_CANCELAR.BackgroundImage = global::Sagrado.Properties.Resources.BTN_CANCEL;
             this.BTN_CANCELAR.Location = new System.Drawing.Point(597, 479);
+            this.BTN_CANCELAR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BTN_CANCELAR.Name = "BTN_CANCELAR";
-            this.BTN_CANCELAR.Size = new System.Drawing.Size(50, 50);
+            this.BTN_CANCELAR.Size = new System.Drawing.Size(51, 50);
             this.BTN_CANCELAR.TabIndex = 49;
             this.BTN_CANCELAR.TabStop = false;
             this.BTN_CANCELAR.Click += new System.EventHandler(this.BTN_CANCELAR_Click);
@@ -373,8 +374,9 @@
             // 
             this.BTN_CONFIRMAR.BackgroundImage = global::Sagrado.Properties.Resources.BTN_CHECK;
             this.BTN_CONFIRMAR.Location = new System.Drawing.Point(667, 478);
+            this.BTN_CONFIRMAR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BTN_CONFIRMAR.Name = "BTN_CONFIRMAR";
-            this.BTN_CONFIRMAR.Size = new System.Drawing.Size(50, 50);
+            this.BTN_CONFIRMAR.Size = new System.Drawing.Size(51, 50);
             this.BTN_CONFIRMAR.TabIndex = 48;
             this.BTN_CONFIRMAR.TabStop = false;
             this.BTN_CONFIRMAR.Click += new System.EventHandler(this.BTN_CONFIRMAR_Click);
@@ -383,12 +385,13 @@
             // 
             this.pictureBox1.BackgroundImage = global::Sagrado.Properties.Resources.BTN_ADD_USER;
             this.pictureBox1.Location = new System.Drawing.Point(289, 28);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 100);
             this.pictureBox1.TabIndex = 47;
             this.pictureBox1.TabStop = false;
             // 
-            // CadastroFunc
+            // CadastrarFunc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -424,9 +427,9 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "CadastroFunc";
+            this.Name = "CadastrarFunc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CADASTRO DE USUÁRIO";
+            this.Text = "CADASTRAR USUÁRIO";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

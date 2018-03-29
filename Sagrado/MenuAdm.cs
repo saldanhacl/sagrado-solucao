@@ -60,5 +60,10 @@ namespace Sagrado
         {
             new RegRetirada().Show();
         }
+
+        private void BTN_CONSULTA_MOVI_Click(object sender, EventArgs e)
+        {
+            new ConsultSaldo().Show();
+        }
     }
 }

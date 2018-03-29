@@ -95,7 +95,7 @@ namespace Sagrado
                 else if (radioButton2.Checked) operacao = "f";
                 else if (radioButton3.Checked) operacao = "e";
 
-                MessageBox.Show("Preço na tela: " + preco);
+                //MessageBox.Show("Preço na tela: " + preco);
 
                 float precoFloat = float.Parse(preco);
                 float saldoAtual;
@@ -105,14 +105,14 @@ namespace Sagrado
 
                     saldoAtual = precoFloat + saldoAnt;
 
-                    MessageBox.Show("Saldo atual: " + saldoAtual.ToString());
+                    //MessageBox.Show("Saldo atual: " + saldoAtual.ToString());
 
 
                     String query = "INSERT INTO CAIXA " +
                     "(TYPE_ENTRADA_CAIXA, DATE_MODIFY_CAIXA, VALOR_ENTRADA_CAIXA, VALOR_ATUAL_CAIXA)" +
                     " VALUES ('" + operacao + "', now()," + precoFloat + "," + saldoAtual + ")";
 
-                    MessageBox.Show(query);
+                    //MessageBox.Show(query);
 
                     MySqlCommand cmd = new MySqlCommand(query, bd.retornaConexao());
                     cmd.ExecuteNonQuery();
@@ -140,7 +140,7 @@ namespace Sagrado
         {
 
             String numero = getLastIndex();
-            MessageBox.Show("Número de retorno vazio"+numero);
+            //MessageBox.Show("Número de retorno vazio"+numero);
             
             //se não houver registros, não ha saldo anterior para somar.
             if(numero == "") 
@@ -151,7 +151,7 @@ namespace Sagrado
             {
                 String ultSaldo = getLastValue(numero);
                 float ultSaldoF = float.Parse(ultSaldo);
-                MessageBox.Show("Saldo anterior: " + ultSaldo);
+                //MessageBox.Show("Saldo anterior: " + ultSaldo);
                 saveRegister(ultSaldoF);
             }
             

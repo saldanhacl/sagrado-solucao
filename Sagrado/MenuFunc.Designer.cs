@@ -103,7 +103,7 @@
             this.btnGerencia.Location = new System.Drawing.Point(171, 203);
             this.btnGerencia.Name = "btnGerencia";
             this.btnGerencia.Size = new System.Drawing.Size(200, 100);
-            this.btnGerencia.TabIndex = 44;
+            this.btnGerencia.TabIndex = 1;
             this.btnGerencia.UseVisualStyleBackColor = true;
             this.btnGerencia.Click += new System.EventHandler(this.btnGerencia_Click);
             // 
@@ -113,7 +113,7 @@
             this.btnGerenUser.Location = new System.Drawing.Point(415, 203);
             this.btnGerenUser.Name = "btnGerenUser";
             this.btnGerenUser.Size = new System.Drawing.Size(200, 100);
-            this.btnGerenUser.TabIndex = 42;
+            this.btnGerenUser.TabIndex = 2;
             this.btnGerenUser.UseVisualStyleBackColor = true;
             this.btnGerenUser.Click += new System.EventHandler(this.btnGerenUser_Click);
             // 
@@ -132,7 +132,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MenuFunc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FUNCIONÁRIO";
+            this.Text = "PAINEL FUNCIONÁRIO";
             this.Load += new System.EventHandler(this.MenuFunc_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

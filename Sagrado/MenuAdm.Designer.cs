@@ -140,8 +140,9 @@
             this.BTN_CONSULTA_MOVI.Location = new System.Drawing.Point(535, 107);
             this.BTN_CONSULTA_MOVI.Name = "BTN_CONSULTA_MOVI";
             this.BTN_CONSULTA_MOVI.Size = new System.Drawing.Size(200, 100);
-            this.BTN_CONSULTA_MOVI.TabIndex = 54;
+            this.BTN_CONSULTA_MOVI.TabIndex = 3;
             this.BTN_CONSULTA_MOVI.UseVisualStyleBackColor = true;
+            this.BTN_CONSULTA_MOVI.Click += new System.EventHandler(this.BTN_CONSULTA_MOVI_Click);
             // 
             // BTN_REGISTRAR_ENTRADA
             // 
@@ -151,7 +152,7 @@
             this.BTN_REGISTRAR_ENTRADA.Location = new System.Drawing.Point(48, 107);
             this.BTN_REGISTRAR_ENTRADA.Name = "BTN_REGISTRAR_ENTRADA";
             this.BTN_REGISTRAR_ENTRADA.Size = new System.Drawing.Size(200, 100);
-            this.BTN_REGISTRAR_ENTRADA.TabIndex = 52;
+            this.BTN_REGISTRAR_ENTRADA.TabIndex = 1;
             this.BTN_REGISTRAR_ENTRADA.UseVisualStyleBackColor = true;
             this.BTN_REGISTRAR_ENTRADA.Click += new System.EventHandler(this.BTN_REGISTRAR_ENTRADA_Click);
             // 
@@ -161,7 +162,7 @@
             this.BTN_GERENCIAR_USER.Location = new System.Drawing.Point(292, 283);
             this.BTN_GERENCIAR_USER.Name = "BTN_GERENCIAR_USER";
             this.BTN_GERENCIAR_USER.Size = new System.Drawing.Size(200, 100);
-            this.BTN_GERENCIAR_USER.TabIndex = 50;
+            this.BTN_GERENCIAR_USER.TabIndex = 5;
             this.BTN_GERENCIAR_USER.UseVisualStyleBackColor = true;
             this.BTN_GERENCIAR_USER.Click += new System.EventHandler(this.BTN_GERENCIAR_USER_Click);
             // 
@@ -173,7 +174,7 @@
             this.BTN_RETIRAR_DINHEIRO.Location = new System.Drawing.Point(292, 107);
             this.BTN_RETIRAR_DINHEIRO.Name = "BTN_RETIRAR_DINHEIRO";
             this.BTN_RETIRAR_DINHEIRO.Size = new System.Drawing.Size(200, 100);
-            this.BTN_RETIRAR_DINHEIRO.TabIndex = 48;
+            this.BTN_RETIRAR_DINHEIRO.TabIndex = 2;
             this.BTN_RETIRAR_DINHEIRO.UseVisualStyleBackColor = true;
             this.BTN_RETIRAR_DINHEIRO.Click += new System.EventHandler(this.BTN_RETIRAR_DINHEIRO_Click);
             // 
@@ -183,7 +184,7 @@
             this.BTN_GERENCIAR_CLIENTE.Location = new System.Drawing.Point(48, 283);
             this.BTN_GERENCIAR_CLIENTE.Name = "BTN_GERENCIAR_CLIENTE";
             this.BTN_GERENCIAR_CLIENTE.Size = new System.Drawing.Size(200, 100);
-            this.BTN_GERENCIAR_CLIENTE.TabIndex = 46;
+            this.BTN_GERENCIAR_CLIENTE.TabIndex = 4;
             this.BTN_GERENCIAR_CLIENTE.UseVisualStyleBackColor = true;
             this.BTN_GERENCIAR_CLIENTE.Click += new System.EventHandler(this.BTN_GERENCIAR_CLIENTE_Click);
             // 

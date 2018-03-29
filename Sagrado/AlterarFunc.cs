@@ -100,5 +100,7 @@ namespace Sagrado
             bd.openConnection();
 
         }
+
+       
     }
 }

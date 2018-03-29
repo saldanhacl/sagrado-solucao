@@ -48,6 +48,7 @@ namespace Sagrado
         private void BTN_EXCLUIR_USER_Click(object sender, EventArgs e)
         {
             //FAZER
+            new ExcluirUser().Show();
         }
 
         private void BTN_CONSUL_USER_Click(object sender, EventArgs e)

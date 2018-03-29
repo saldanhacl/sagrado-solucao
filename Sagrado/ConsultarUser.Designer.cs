@@ -82,7 +82,7 @@
             this.TXT_CPF.MaxLength = 11;
             this.TXT_CPF.Name = "TXT_CPF";
             this.TXT_CPF.Size = new System.Drawing.Size(200, 27);
-            this.TXT_CPF.TabIndex = 49;
+            this.TXT_CPF.TabIndex = 1;
             // 
             // BTN_SEARCH
             // 
@@ -215,12 +215,12 @@
             // RD_MASC
             // 
             this.RD_MASC.AutoSize = true;
-            this.RD_MASC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.RD_MASC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.RD_MASC.Location = new System.Drawing.Point(9, 5);
             this.RD_MASC.Margin = new System.Windows.Forms.Padding(4);
             this.RD_MASC.Name = "RD_MASC";
-            this.RD_MASC.Size = new System.Drawing.Size(96, 19);
-            this.RD_MASC.TabIndex = 5;
+            this.RD_MASC.Size = new System.Drawing.Size(104, 20);
+            this.RD_MASC.TabIndex = 6;
             this.RD_MASC.Text = "MASCULINO";
             this.RD_MASC.UseVisualStyleBackColor = true;
             // 
@@ -229,12 +229,12 @@
             this.RD_FEM.AutoSize = true;
             this.RD_FEM.Checked = true;
             this.RD_FEM.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.RD_FEM.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.RD_FEM.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.RD_FEM.Location = new System.Drawing.Point(154, 4);
             this.RD_FEM.Margin = new System.Windows.Forms.Padding(4);
             this.RD_FEM.Name = "RD_FEM";
-            this.RD_FEM.Size = new System.Drawing.Size(90, 20);
-            this.RD_FEM.TabIndex = 6;
+            this.RD_FEM.Size = new System.Drawing.Size(96, 21);
+            this.RD_FEM.TabIndex = 7;
             this.RD_FEM.TabStop = true;
             this.RD_FEM.Text = "FEMININO";
             this.RD_FEM.UseVisualStyleBackColor = true;
@@ -254,12 +254,12 @@
             this.RD_FUNC.AutoSize = true;
             this.RD_FUNC.Checked = true;
             this.RD_FUNC.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.RD_FUNC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.RD_FUNC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.RD_FUNC.Location = new System.Drawing.Point(9, 5);
             this.RD_FUNC.Margin = new System.Windows.Forms.Padding(4);
             this.RD_FUNC.Name = "RD_FUNC";
-            this.RD_FUNC.Size = new System.Drawing.Size(113, 20);
-            this.RD_FUNC.TabIndex = 32;
+            this.RD_FUNC.Size = new System.Drawing.Size(124, 21);
+            this.RD_FUNC.TabIndex = 2;
             this.RD_FUNC.TabStop = true;
             this.RD_FUNC.Text = "FUNCIONÁRIO";
             this.RD_FUNC.UseVisualStyleBackColor = true;
@@ -267,12 +267,12 @@
             // RD_ADMIN
             // 
             this.RD_ADMIN.AutoSize = true;
-            this.RD_ADMIN.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.RD_ADMIN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.RD_ADMIN.Location = new System.Drawing.Point(168, 5);
             this.RD_ADMIN.Margin = new System.Windows.Forms.Padding(4);
             this.RD_ADMIN.Name = "RD_ADMIN";
-            this.RD_ADMIN.Size = new System.Drawing.Size(125, 19);
-            this.RD_ADMIN.TabIndex = 31;
+            this.RD_ADMIN.Size = new System.Drawing.Size(139, 20);
+            this.RD_ADMIN.TabIndex = 3;
             this.RD_ADMIN.Text = "ADMINISTRADOR";
             this.RD_ADMIN.UseVisualStyleBackColor = true;
             // 
@@ -287,7 +287,7 @@
             this.TXT_SENHA.Name = "TXT_SENHA";
             this.TXT_SENHA.ReadOnly = true;
             this.TXT_SENHA.Size = new System.Drawing.Size(158, 24);
-            this.TXT_SENHA.TabIndex = 60;
+            this.TXT_SENHA.TabIndex = 11;
             this.TXT_SENHA.UseSystemPasswordChar = true;
             // 
             // TXT_TEL
@@ -301,7 +301,7 @@
             this.TXT_TEL.Name = "TXT_TEL";
             this.TXT_TEL.ReadOnly = true;
             this.TXT_TEL.Size = new System.Drawing.Size(241, 24);
-            this.TXT_TEL.TabIndex = 59;
+            this.TXT_TEL.TabIndex = 8;
             // 
             // TXT_CEL
             // 
@@ -314,7 +314,7 @@
             this.TXT_CEL.Name = "TXT_CEL";
             this.TXT_CEL.ReadOnly = true;
             this.TXT_CEL.Size = new System.Drawing.Size(195, 24);
-            this.TXT_CEL.TabIndex = 58;
+            this.TXT_CEL.TabIndex = 9;
             // 
             // TXT_EMAIL
             // 
@@ -327,7 +327,7 @@
             this.TXT_EMAIL.Name = "TXT_EMAIL";
             this.TXT_EMAIL.ReadOnly = true;
             this.TXT_EMAIL.Size = new System.Drawing.Size(527, 24);
-            this.TXT_EMAIL.TabIndex = 57;
+            this.TXT_EMAIL.TabIndex = 10;
             // 
             // TXT_RG
             // 
@@ -340,7 +340,7 @@
             this.TXT_RG.Name = "TXT_RG";
             this.TXT_RG.ReadOnly = true;
             this.TXT_RG.Size = new System.Drawing.Size(186, 23);
-            this.TXT_RG.TabIndex = 56;
+            this.TXT_RG.TabIndex = 5;
             // 
             // TXT_DATE
             // 
@@ -356,7 +356,7 @@
             this.TXT_DATE.MinDate = new System.DateTime(1918, 1, 1, 0, 0, 0, 0);
             this.TXT_DATE.Name = "TXT_DATE";
             this.TXT_DATE.Size = new System.Drawing.Size(158, 23);
-            this.TXT_DATE.TabIndex = 54;
+            this.TXT_DATE.TabIndex = 12;
             this.TXT_DATE.Value = new System.DateTime(2018, 3, 28, 0, 0, 0, 0);
             // 
             // label11
@@ -381,7 +381,7 @@
             this.TXT_NOME.Name = "TXT_NOME";
             this.TXT_NOME.ReadOnly = true;
             this.TXT_NOME.Size = new System.Drawing.Size(527, 23);
-            this.TXT_NOME.TabIndex = 52;
+            this.TXT_NOME.TabIndex = 4;
             // 
             // ConsultarUser
             // 

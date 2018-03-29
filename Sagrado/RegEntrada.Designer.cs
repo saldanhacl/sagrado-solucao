@@ -57,9 +57,10 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(229, 18);
+            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.radioButton3.Location = new System.Drawing.Point(207, 18);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(115, 17);
+            this.radioButton3.Size = new System.Drawing.Size(137, 20);
             this.radioButton3.TabIndex = 2;
             this.radioButton3.Text = "FUNDO DE CAIXA";
             this.radioButton3.UseVisualStyleBackColor = true;
@@ -67,9 +68,10 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(116, 18);
+            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.radioButton2.Location = new System.Drawing.Point(107, 18);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(57, 17);
+            this.radioButton2.Size = new System.Drawing.Size(66, 20);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.Text = "FIADO";
             this.radioButton2.UseVisualStyleBackColor = true;
@@ -78,9 +80,10 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
             this.radioButton1.Location = new System.Drawing.Point(3, 18);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(62, 17);
+            this.radioButton1.Size = new System.Drawing.Size(73, 20);
             this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "VENDA";
@@ -91,7 +94,7 @@
             this.boxPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.boxPrice.ForeColor = System.Drawing.SystemColors.WindowText;
             this.boxPrice.Location = new System.Drawing.Point(275, 271);
-            this.boxPrice.MaxLength = 10;
+            this.boxPrice.MaxLength = 3;
             this.boxPrice.Name = "boxPrice";
             this.boxPrice.Size = new System.Drawing.Size(185, 23);
             this.boxPrice.TabIndex = 3;

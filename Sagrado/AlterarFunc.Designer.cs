@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AlterarFunc));
-            this.BTN_CANCELAR = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -52,28 +51,19 @@
             this.TXT_DATE = new System.Windows.Forms.DateTimePicker();
             this.label11 = new System.Windows.Forms.Label();
             this.TXT_NOME = new System.Windows.Forms.TextBox();
-            this.BTN_SEARCH = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.TXT_CPF = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BTN_CONFIRMAR = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.BTN_CANCELAR)).BeginInit();
+            this.BTN_CANCELAR = new System.Windows.Forms.PictureBox();
+            this.BTN_SEARCH = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BTN_CONFIRMAR)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BTN_CANCELAR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BTN_SEARCH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BTN_CONFIRMAR)).BeginInit();
             this.SuspendLayout();
-            // 
-            // BTN_CANCELAR
-            // 
-            this.BTN_CANCELAR.BackgroundImage = global::Sagrado.Properties.Resources.BTN_CANCEL;
-            this.BTN_CANCELAR.Location = new System.Drawing.Point(619, 481);
-            this.BTN_CANCELAR.Name = "BTN_CANCELAR";
-            this.BTN_CANCELAR.Size = new System.Drawing.Size(50, 50);
-            this.BTN_CANCELAR.TabIndex = 98;
-            this.BTN_CANCELAR.TabStop = false;
-            this.BTN_CANCELAR.Click += new System.EventHandler(this.BTN_CANCELAR_Click);
             // 
             // label7
             // 
@@ -176,12 +166,12 @@
             // RD_MASC
             // 
             this.RD_MASC.AutoSize = true;
-            this.RD_MASC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.RD_MASC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.RD_MASC.Location = new System.Drawing.Point(9, 5);
             this.RD_MASC.Margin = new System.Windows.Forms.Padding(4);
             this.RD_MASC.Name = "RD_MASC";
-            this.RD_MASC.Size = new System.Drawing.Size(96, 19);
-            this.RD_MASC.TabIndex = 5;
+            this.RD_MASC.Size = new System.Drawing.Size(104, 20);
+            this.RD_MASC.TabIndex = 6;
             this.RD_MASC.Text = "MASCULINO";
             this.RD_MASC.UseVisualStyleBackColor = true;
             // 
@@ -195,7 +185,7 @@
             this.RD_FEM.Margin = new System.Windows.Forms.Padding(4);
             this.RD_FEM.Name = "RD_FEM";
             this.RD_FEM.Size = new System.Drawing.Size(90, 20);
-            this.RD_FEM.TabIndex = 6;
+            this.RD_FEM.TabIndex = 7;
             this.RD_FEM.TabStop = true;
             this.RD_FEM.Text = "FEMININO";
             this.RD_FEM.UseVisualStyleBackColor = true;
@@ -215,12 +205,12 @@
             this.RD_FUNC.AutoSize = true;
             this.RD_FUNC.Checked = true;
             this.RD_FUNC.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.RD_FUNC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.RD_FUNC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.RD_FUNC.Location = new System.Drawing.Point(9, 5);
             this.RD_FUNC.Margin = new System.Windows.Forms.Padding(4);
             this.RD_FUNC.Name = "RD_FUNC";
-            this.RD_FUNC.Size = new System.Drawing.Size(113, 20);
-            this.RD_FUNC.TabIndex = 32;
+            this.RD_FUNC.Size = new System.Drawing.Size(124, 21);
+            this.RD_FUNC.TabIndex = 2;
             this.RD_FUNC.TabStop = true;
             this.RD_FUNC.Text = "FUNCIONÁRIO";
             this.RD_FUNC.UseVisualStyleBackColor = true;
@@ -228,12 +218,12 @@
             // RD_ADMIN
             // 
             this.RD_ADMIN.AutoSize = true;
-            this.RD_ADMIN.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.RD_ADMIN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.RD_ADMIN.Location = new System.Drawing.Point(168, 5);
             this.RD_ADMIN.Margin = new System.Windows.Forms.Padding(4);
             this.RD_ADMIN.Name = "RD_ADMIN";
-            this.RD_ADMIN.Size = new System.Drawing.Size(125, 19);
-            this.RD_ADMIN.TabIndex = 31;
+            this.RD_ADMIN.Size = new System.Drawing.Size(139, 20);
+            this.RD_ADMIN.TabIndex = 3;
             this.RD_ADMIN.Text = "ADMINISTRADOR";
             this.RD_ADMIN.UseVisualStyleBackColor = true;
             // 
@@ -247,7 +237,7 @@
             this.TXT_SENHA.MaxLength = 8;
             this.TXT_SENHA.Name = "TXT_SENHA";
             this.TXT_SENHA.Size = new System.Drawing.Size(158, 24);
-            this.TXT_SENHA.TabIndex = 87;
+            this.TXT_SENHA.TabIndex = 11;
             this.TXT_SENHA.UseSystemPasswordChar = true;
             // 
             // TXT_TEL
@@ -260,7 +250,7 @@
             this.TXT_TEL.MaxLength = 10;
             this.TXT_TEL.Name = "TXT_TEL";
             this.TXT_TEL.Size = new System.Drawing.Size(241, 24);
-            this.TXT_TEL.TabIndex = 86;
+            this.TXT_TEL.TabIndex = 8;
             // 
             // TXT_CEL
             // 
@@ -272,7 +262,7 @@
             this.TXT_CEL.MaxLength = 11;
             this.TXT_CEL.Name = "TXT_CEL";
             this.TXT_CEL.Size = new System.Drawing.Size(195, 24);
-            this.TXT_CEL.TabIndex = 85;
+            this.TXT_CEL.TabIndex = 9;
             // 
             // TXT_EMAIL
             // 
@@ -284,7 +274,7 @@
             this.TXT_EMAIL.MaxLength = 50;
             this.TXT_EMAIL.Name = "TXT_EMAIL";
             this.TXT_EMAIL.Size = new System.Drawing.Size(527, 24);
-            this.TXT_EMAIL.TabIndex = 84;
+            this.TXT_EMAIL.TabIndex = 10;
             // 
             // TXT_RG
             // 
@@ -296,7 +286,7 @@
             this.TXT_RG.MaxLength = 8;
             this.TXT_RG.Name = "TXT_RG";
             this.TXT_RG.Size = new System.Drawing.Size(186, 23);
-            this.TXT_RG.TabIndex = 83;
+            this.TXT_RG.TabIndex = 5;
             // 
             // TXT_DATE
             // 
@@ -312,7 +302,7 @@
             this.TXT_DATE.MinDate = new System.DateTime(1918, 1, 1, 0, 0, 0, 0);
             this.TXT_DATE.Name = "TXT_DATE";
             this.TXT_DATE.Size = new System.Drawing.Size(158, 23);
-            this.TXT_DATE.TabIndex = 82;
+            this.TXT_DATE.TabIndex = 12;
             this.TXT_DATE.Value = new System.DateTime(2018, 3, 28, 0, 0, 0, 0);
             // 
             // label11
@@ -336,18 +326,7 @@
             this.TXT_NOME.MaxLength = 50;
             this.TXT_NOME.Name = "TXT_NOME";
             this.TXT_NOME.Size = new System.Drawing.Size(527, 23);
-            this.TXT_NOME.TabIndex = 80;
-            // 
-            // BTN_SEARCH
-            // 
-            this.BTN_SEARCH.BackgroundImage = global::Sagrado.Properties.Resources.search;
-            this.BTN_SEARCH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BTN_SEARCH.Location = new System.Drawing.Point(501, 152);
-            this.BTN_SEARCH.Name = "BTN_SEARCH";
-            this.BTN_SEARCH.Size = new System.Drawing.Size(30, 30);
-            this.BTN_SEARCH.TabIndex = 79;
-            this.BTN_SEARCH.TabStop = false;
-            this.BTN_SEARCH.Click += new System.EventHandler(this.BTN_SEARCH_Click);
+            this.TXT_NOME.TabIndex = 4;
             // 
             // label5
             // 
@@ -368,16 +347,7 @@
             this.TXT_CPF.MaxLength = 11;
             this.TXT_CPF.Name = "TXT_CPF";
             this.TXT_CPF.Size = new System.Drawing.Size(200, 27);
-            this.TXT_CPF.TabIndex = 77;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::Sagrado.Properties.Resources.BTN_EDIT_USER;
-            this.pictureBox1.Location = new System.Drawing.Point(292, 31);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(200, 100);
-            this.pictureBox1.TabIndex = 76;
-            this.pictureBox1.TabStop = false;
+            this.TXT_CPF.TabIndex = 1;
             // 
             // BTN_CONFIRMAR
             // 
@@ -388,6 +358,36 @@
             this.BTN_CONFIRMAR.TabIndex = 99;
             this.BTN_CONFIRMAR.TabStop = false;
             this.BTN_CONFIRMAR.Click += new System.EventHandler(this.BTN_CONFIRMAR_Click);
+            // 
+            // BTN_CANCELAR
+            // 
+            this.BTN_CANCELAR.BackgroundImage = global::Sagrado.Properties.Resources.BTN_CANCEL;
+            this.BTN_CANCELAR.Location = new System.Drawing.Point(619, 481);
+            this.BTN_CANCELAR.Name = "BTN_CANCELAR";
+            this.BTN_CANCELAR.Size = new System.Drawing.Size(50, 50);
+            this.BTN_CANCELAR.TabIndex = 98;
+            this.BTN_CANCELAR.TabStop = false;
+            this.BTN_CANCELAR.Click += new System.EventHandler(this.BTN_CANCELAR_Click);
+            // 
+            // BTN_SEARCH
+            // 
+            this.BTN_SEARCH.BackgroundImage = global::Sagrado.Properties.Resources.search;
+            this.BTN_SEARCH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BTN_SEARCH.Location = new System.Drawing.Point(501, 152);
+            this.BTN_SEARCH.Name = "BTN_SEARCH";
+            this.BTN_SEARCH.Size = new System.Drawing.Size(30, 30);
+            this.BTN_SEARCH.TabIndex = 79;
+            this.BTN_SEARCH.TabStop = false;
+            this.BTN_SEARCH.Click += new System.EventHandler(this.BTN_SEARCH_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Sagrado.Properties.Resources.BTN_EDIT_USER;
+            this.pictureBox1.Location = new System.Drawing.Point(292, 31);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(200, 100);
+            this.pictureBox1.TabIndex = 76;
+            this.pictureBox1.TabStop = false;
             // 
             // AlterarFunc
             // 
@@ -423,14 +423,14 @@
             this.Name = "AlterarFunc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ALTERAR USUÁRIO";
-            ((System.ComponentModel.ISupportInitialize)(this.BTN_CANCELAR)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BTN_CONFIRMAR)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BTN_CANCELAR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BTN_SEARCH)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BTN_CONFIRMAR)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

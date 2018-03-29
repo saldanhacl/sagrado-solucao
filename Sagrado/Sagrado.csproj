@@ -58,7 +58,19 @@
     <Compile Include="ConsultarUser.Designer.cs">
       <DependentUpon>ConsultarUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConsultSaldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultSaldo.Designer.cs">
+      <DependentUpon>ConsultSaldo.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataBaseConnection.cs" />
+    <Compile Include="ExcluirUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExcluirUser.Designer.cs">
+      <DependentUpon>ExcluirUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="RegEntrada.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +120,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarUser.resx">
       <DependentUpon>ConsultarUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultSaldo.resx">
+      <DependentUpon>ConsultSaldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExcluirUser.resx">
+      <DependentUpon>ExcluirUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegEntrada.resx">
       <DependentUpon>RegEntrada.cs</DependentUpon>

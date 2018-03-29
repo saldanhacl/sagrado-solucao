@@ -20,7 +20,6 @@ namespace Sagrado
         }
 
 
-
         private string logar()
         {
             DataBaseConnection bd = new DataBaseConnection();
