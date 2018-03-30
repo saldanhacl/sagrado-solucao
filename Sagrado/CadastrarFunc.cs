@@ -27,13 +27,13 @@ namespace Sagrado
 
         private void BTN_CONFIRMAR_Click(object sender, EventArgs e)
         {
+
             DataBaseConnection bd = new DataBaseConnection();
 
                 bd.openConnection();
 
                 String nome = textBox1.Text;
-                //formatar dtnascimento para DateTime;
-                String dtnascimento = "now()";
+                String dtnascimento = dateTimePicker1.Value.ToString("yyyy-MM-dd HH:mm:ss");
                 String rg = textBox3.Text;
                 String cpf = textBox2.Text;
                 String tel = textBox6.Text;
@@ -58,9 +58,9 @@ namespace Sagrado
                     String query = "INSERT INTO USUARIO " +
                     "(CPF_USER, NOME_USER, TEL_USER, CEL_USER, EMAIL_USER, NIVEL_USER, DTNASCIMENTO_USER, SEXO_USER, RG_USER, SENHA_USER)" +
                     " VALUES ('" + cpf + "','" + nome + "','" + tel + "','" + cel + "','" +
-                    email + "','" + tipo + "'," + dtnascimento + ",'" + sexo + "','" + rg + "','" + senha + "')";
-
-                    //MessageBox.Show(query);
+                    email + "','" + tipo + "','" + dtnascimento + "','" + sexo + "','" + rg + "','" + senha + "')";
+                
+                    MessageBox.Show(query);
 
                     MySqlCommand cmd = new MySqlCommand(query, bd.retornaConexao());
                     cmd.ExecuteNonQuery();
@@ -80,6 +80,9 @@ namespace Sagrado
             
         }
 
-        
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
