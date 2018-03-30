@@ -101,6 +101,9 @@ namespace Sagrado
 
         }
 
-       
+        private void TXT_CPF_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

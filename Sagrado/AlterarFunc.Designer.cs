@@ -348,6 +348,7 @@
             this.TXT_CPF.Name = "TXT_CPF";
             this.TXT_CPF.Size = new System.Drawing.Size(200, 27);
             this.TXT_CPF.TabIndex = 1;
+            this.TXT_CPF.TextChanged += new System.EventHandler(this.TXT_CPF_TextChanged);
             // 
             // BTN_CONFIRMAR
             // 
