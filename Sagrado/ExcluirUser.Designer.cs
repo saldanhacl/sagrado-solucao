@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExcluirUser));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TXT_CPF = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.BTN_CONFIRMAR = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -47,16 +47,16 @@
             this.pictureBox1.TabIndex = 48;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox2
+            // TXT_CPF
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F);
-            this.textBox2.Location = new System.Drawing.Point(293, 246);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.MaxLength = 11;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(195, 24);
-            this.textBox2.TabIndex = 49;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.TXT_CPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F);
+            this.TXT_CPF.Location = new System.Drawing.Point(293, 246);
+            this.TXT_CPF.Margin = new System.Windows.Forms.Padding(4);
+            this.TXT_CPF.MaxLength = 11;
+            this.TXT_CPF.Name = "TXT_CPF";
+            this.TXT_CPF.Size = new System.Drawing.Size(195, 24);
+            this.TXT_CPF.TabIndex = 49;
+            this.TXT_CPF.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label5
             // 
@@ -78,6 +78,7 @@
             this.BTN_CONFIRMAR.Size = new System.Drawing.Size(51, 50);
             this.BTN_CONFIRMAR.TabIndex = 51;
             this.BTN_CONFIRMAR.TabStop = false;
+            this.BTN_CONFIRMAR.Click += new System.EventHandler(this.BTN_CONFIRMAR_Click);
             // 
             // ExcluirUser
             // 
@@ -87,7 +88,7 @@
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.BTN_CONFIRMAR);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.TXT_CPF);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ExcluirUser";
@@ -103,7 +104,7 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox TXT_CPF;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox BTN_CONFIRMAR;
     }
