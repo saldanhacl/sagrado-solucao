@@ -29,8 +29,6 @@ namespace Sagrado
         {
             DataBaseConnection bd = new DataBaseConnection();
 
-            try
-            {
                 bd.openConnection();
 
                 String nome = textBox1.Text;
@@ -77,10 +75,6 @@ namespace Sagrado
                     textBox8.Text = "";
                 }
 
-            }catch (MySqlException)
-            {
-                System.Windows.Forms.MessageBox.Show("Error de conexão com o banco de dados.");
-            }
 
             bd.closeConnection();
             
